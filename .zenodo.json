@@ -1,0 +1,19 @@
+{
+  "title": "Œuvres mathématiques d'Emmy Noether — édition française complète / Emmy Noether's Mathematical Works — Complete French Edition",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "publication_date": "2026-08-13",
+  "description": "Édition française complète du corpus mathématique d'Emmy Noether maintenu par le projet : lecteur public lié de 498 pages (4 pages liminaires et 494 pages de corps), 81 unités logiques, sources éditables et archive de provenance. Réconciliée avec NOETH-DE-ED-0014/v051, DOI 10.5281/zenodo.21908301. Traduction et composition assistées par IA, avec contrôle éditorial interne documenté ; aucune évaluation externe par les pairs n'est revendiquée. Les témoins français natifs dont la licence n'est pas établie ne sont pas redistribués.",
+  "creators": [
+    {"name": "Noether, Emmy"},
+    {"name": "Manuscript Typesetting Project", "affiliation": "Independent"}
+  ],
+  "language": "fra",
+  "license": "cc-zero",
+  "version": "2026-08-13 r1 (ED0014/v051)",
+  "keywords": ["Emmy Noether", "mathématiques", "traduction française", "algèbre", "théorie des idéaux", "théorie des représentations", "édition TeX", "provenance"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20412587", "relation": "isPartOf", "scheme": "doi"},
+    {"identifier": "https://github.com/KokunoYumeto/emmy-noether-fr", "relation": "isSupplementedBy", "scheme": "url"}
+  ]
+}

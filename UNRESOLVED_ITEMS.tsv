@@ -1,0 +1,5 @@
+item_id	severity	status	description	disposition
+FUTURE_AUTHORITY	informational	open	A later canonical German edition may supersede ED0014/v051.	Publish a new French version only after explicit source rebase and repeat QA.
+EXTERNAL_REVIEW	informational	open	This source-reconciled edition has not undergone external peer review.	Public caveat retained in README and Zenodo description.
+NATIVE_WITNESSES	informational	closed-for-release	Redistribution rights for native French register witnesses are not established.	Witness bodies excluded; provenance and locators retained.
+

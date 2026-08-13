@@ -1,0 +1,13 @@
+{
+  "schema": "noether-french-source-authority-v1",
+  "authority_id": "NOETH-DE-ED-0014 / v051",
+  "exact_doi": "10.5281/zenodo.21908301",
+  "german_tex_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+  "french_expanded_target_sha256": "9023E0CB2C1DB62800D906662261EC5FAAA36529D5000F678C190FAEEE93C120",
+  "logical_units": 81,
+  "editable_tex_files": 130,
+  "source_derived_png_assets": 1,
+  "public_reader_pages": 498,
+  "cumulative_body_pages": 494
+}
+

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the version DOI for the exact bytes used, or the concept DOI for the maintained French corpus."
+title: "Œuvres mathématiques d’Emmy Noether — édition française complète"
+type: dataset
+version: "2026-08-13 r1 (ED0014/v051)"
+date-released: 2026-08-13
+authors:
+  - family-names: Noether
+    given-names: Emmy
+  - name: Manuscript Typesetting Project
+doi: 10.5281/zenodo.21921884
+url: "https://github.com/KokunoYumeto/emmy-noether-fr"
+license: CC0-1.0
+preferred-citation:
+  type: book
+  title: "Œuvres mathématiques d’Emmy Noether — édition française complète"
+  authors:
+    - family-names: Noether
+      given-names: Emmy
+    - name: Manuscript Typesetting Project
+  year: 2026
+  doi: 10.5281/zenodo.21921884

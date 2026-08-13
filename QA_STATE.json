@@ -1,0 +1,25 @@
+{
+  "schema": "noether-french-public-qa-state-v1",
+  "status": "pass",
+  "source_reconciliation": {
+    "units": 81,
+    "authority": "NOETH-DE-ED-0014 / v051",
+    "internal_editorial_review": true,
+    "external_peer_review": false
+  },
+  "body": {
+    "pages": 494,
+    "sha256": "6E2E54FF24A8763C7E1736F010D0005EF9565328BEB2C6587628824F52E3540B",
+    "completion_gate_checks_passed": 35,
+    "adversarial_selftest_probes_passed": 12
+  },
+  "public_reader": {
+    "pages": 498,
+    "sha256": "27EB3A768388529C23936FFA4F9F2BE09DF96EC6F92958113F18CAEA99BBACC2",
+    "internal_unit_links": 81,
+    "rendered_pages": 498,
+    "body_pixel_mismatches": 0,
+    "deterministic_repeat_builds": 2
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "schema": "noether-language-release-relations-v1",
+  "language_concept": "10.5281/zenodo.21921883",
+  "exact_version": "10.5281/zenodo.21921884",
+  "relations": [
+    {
+      "subject": "10.5281/zenodo.21921883",
+      "relation": "IsPartOf",
+      "object": "10.5281/zenodo.20412587",
+      "encoded_in_zenodo": true
+    },
+    {
+      "subject": "10.5281/zenodo.21921883",
+      "relation": "IsTranslationOf",
+      "object": "10.5281/zenodo.21908301",
+      "encoded_in_zenodo": false,
+      "note": "Preserved in public description and sidecars because the deployed Zenodo relation vocabulary does not expose IsTranslationOf."
+    },
+    {
+      "subject": "10.5281/zenodo.21921884",
+      "relation": "IsVersionOf",
+      "object": "10.5281/zenodo.21921883",
+      "encoded_by_zenodo_versioning": true
+    },
+    {
+      "subject": "10.5281/zenodo.21921883",
+      "relation": "IsSupplementedBy",
+      "object": "https://github.com/KokunoYumeto/emmy-noether-fr",
+      "encoded_in_zenodo": true
+    }
+  ]
+}
+
