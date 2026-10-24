@@ -1,22 +1,18 @@
 cff-version: 1.2.0
-message: "Please cite the version DOI for the exact bytes used, or the concept DOI for the maintained French corpus."
-title: "Œuvres mathématiques d’Emmy Noether — édition française complète"
+message: "Citer cette édition française avec son URL de publication GitHub. Les DOI cités dans la notice désignent les éditions sources."
+title: "Emmy Noether — Écrits mathématiques en français"
 type: dataset
-version: "2026-08-13 r1 (ED0014/v051)"
-date-released: 2026-08-13
+version: "2026-10-24"
+date-released: 2026-10-24
 authors:
   - family-names: Noether
     given-names: Emmy
-  - name: Manuscript Typesetting Project
-doi: 10.5281/zenodo.21921884
-url: "https://github.com/KokunoYumeto/emmy-noether-fr"
-license: CC0-1.0
-preferred-citation:
-  type: book
-  title: "Œuvres mathématiques d’Emmy Noether — édition française complète"
-  authors:
-    - family-names: Noether
-      given-names: Emmy
-    - name: Manuscript Typesetting Project
-  year: 2026
-  doi: 10.5281/zenodo.21921884
+url: "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-24"
+abstract: "Articles 1–43, cours de 1929/30 rédigé par M. Deuring, article de Kapferer et Noether et complément, bibliographie et listes terminales. Texte de base de 496 pages et variante avec émendations de 501 pages, LaTeX intégral et sources de composition. Traduction produite par IA, modèle initial non établi; corrections et composition par OpenAI Codex — GPT-6 Astra, effort Ultra. Droits réservés à leurs titulaires respectifs; voir la notice."
+references:
+  - type: dataset
+    title: "Édition française source ED0014/v051 — Manuscript Typesetting Project"
+    doi: 10.5281/zenodo.21921884
+  - type: dataset
+    title: "Édition allemande source ED0014/v051"
+    doi: 10.5281/zenodo.21908301

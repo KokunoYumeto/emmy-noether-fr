@@ -1,0 +1,6 @@
+eb2f5c12c57f26e2fbd00bb5e694fb2e54da0845d34ee75846dd66be186b0b98  01-noether-fr-texte-base.pdf
+7a1bef0b57c1b4c26950dc9306c8bb60a1ee16adee7c1cd295fe82dca72448bc  02-noether-fr-texte-base.tex
+da39f7091c80c16d08b4e735b1f3e9fa8c5b182e84314366d685cdf04edc4053  03-noether-fr-texte-base-sources.zip
+e628e2c338de6a5c6ea03d21f606634d9bff0254472fd8c1820635ba6670bfbd  04-noether-fr-emendations.pdf
+79e642f2e7c2c5444c8b929aad72a658312ff87040774ce95e419ea2429d1cd8  05-noether-fr-emendations.tex
+8fecda0c88bc3ddf1bcd05b0736e2c1654d5a90ad8b4c0bbcc2061e0a78f50f1  06-noether-fr-emendations-sources.zip

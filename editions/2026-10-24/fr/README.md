@@ -1,15 +1,33 @@
 # Emmy Noether — Écrits mathématiques en français
 
-Ce recueil rassemble les articles 1 à 43, le cours *Algèbre des grandeurs hypercomplexes* de 1929/30 rédigé par M. Deuring, l’article de Kapferer et Noether et son complément, ainsi que la bibliographie et les listes terminales. Il traite notamment des invariants, des idéaux, des corps, des algèbres et de leurs représentations.
+Ce recueil réunit les articles 1 à 43 d’Emmy Noether, le cours *Algèbre des grandeurs hypercomplexes* du semestre d’hiver 1929/30, rédigé par M. Deuring, ainsi que l’article de Kapferer et Noether et son complément. Il comprend également la bibliographie et les listes de notices, comptes rendus et livres. Les textes portent notamment sur les invariants, les idéaux, les corps, les algèbres et leurs représentations.
 
 ## Lecture et sources
 
-1. [Lire le volume PDF de l’édition archivée](../../../../00_EMMY_NOETHER_FR_COMPLETE_LINKED_READER.pdf).
-2. [Texte cumulatif LaTeX — texte de base](current/02-noether-fr.tex) · [sources de composition](current/03-noether-fr-sources.zip).
-3. [Texte cumulatif LaTeX — édition avec émendations](corrected/02-noether-fr.tex) · [sources de composition](corrected/03-noether-fr-sources.zip).
+### Texte de base — 496 pages
 
-Le PDF ci-dessus appartient à l’édition archivée; il ne représente pas les présents fichiers LaTeX. Les deux sources conservent l’ensemble du recueil. L’édition avec émendations contient les notes critiques qui justifient ses interventions; le texte de base conserve les leçons originales concernées. Les vérifications effectuées ne constituent pas une certification de fidélité de l’ensemble du corpus.
+1. [Lire le PDF](reader-edition/01-noether-fr-texte-base.pdf).
+2. [Télécharger le texte cumulatif LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-24/02-noether-fr-texte-base.tex).
+3. [Télécharger les sources de composition](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-24/03-noether-fr-texte-base-sources.zip).
 
-Chaque archive contient le texte cumulatif, les fichiers modulaires et les entrées nécessaires à la composition. Avec une distribution TeX incluant XeLaTeX, Babel français, les paquets AMS, TikZ, hyperref, longtable et microtype, exécuter deux fois `xelatex -interaction=nonstopmode -halt-on-error 02-noether-fr.tex` à la racine décompressée.
+### Texte avec émendations — 501 pages
 
-Traduction produite par IA; corrections et composition produites par OpenAI Codex — GPT-6 Astra, effort Ultra. Les auteurs des œuvres restent ceux indiqués dans les textes. Voir [la provenance et les droits](RIGHTS.md).
+1. [Lire le PDF](reader-edition/04-noether-fr-emendations.pdf).
+2. [Télécharger le texte cumulatif LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-24/05-noether-fr-emendations.tex).
+3. [Télécharger les sources de composition](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-24/06-noether-fr-emendations-sources.zip).
+
+Les deux variantes contiennent l’ensemble du recueil décrit ci-dessus. Le texte de base conserve les leçons originales concernées; les interventions de la variante avec émendations sont explicitées dans des notes critiques. Ces notes ne constituent pas une édition critique exhaustive de tous les textes.
+
+Chaque fichier LaTeX direct contient le texte intégral de sa variante. Chaque archive contient les mêmes sources cumulatives, leur organisation modulaire et un script de composition avec LuaLaTeX. [Empreintes SHA-256](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-24/07-SHA256SUMS.txt).
+
+## Auteurs, traduction et provenance
+
+Les auteurs des œuvres restent Emmy Noether et les coauteurs indiqués dans les textes; M. Deuring a rédigé le cours de 1929/30. Traduction produite par IA; le modèle de la production initiale n’est pas établi par les éléments de provenance disponibles. Corrections et composition : OpenAI Codex — GPT-6 Astra, effort Ultra. Aucune traduction humaine ni relecture scientifique humaine n’est attribuée à l’éditeur.
+
+Sources : [édition française ED0014/v051](https://doi.org/10.5281/zenodo.21921884), diffusée sous le nom Manuscript Typesetting Project, et [édition allemande ED0014/v051](https://doi.org/10.5281/zenodo.21908301). Les références des publications originales et les signatures figurent dans les textes. Ces identifiants désignent les éditions sources; aucun DOI n’est attribué à la présente publication GitHub.
+
+## Droits
+
+Les droits restent à leurs titulaires respectifs. Cette édition est proposée gratuitement à des fins non commerciales et purement éducatives, dans la présomption de l’éditeur que les titulaires ne s’y opposeraient pas. Cette présomption n’est pas une autorisation établie; le libre accès ne vaut pas autorisation de publication dérivée. Les titulaires peuvent [signaler une objection](https://github.com/KokunoYumeto/emmy-noether-fr/issues/new); l’éditeur s’engage à retirer les éléments concernés à leur demande. Aucune nouvelle licence ni mise dans le domaine public n’est accordée.
+
+[Provenance et droits](reader-edition/RIGHTS.md) · [Déclaration historique de l’édition source](reader-edition/NOTICE_HISTORIQUE.md) · [Édition archivée](https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/ed0014-v051-r1).
