@@ -4735,7 +4735,7 @@ d'après le lemme, de telle sorte que le rang algébrique $\rho$ du système (1)
 \[
 \begin{aligned}
  [f(x)]_{(x_n=a_n)}&=f^{(n-1)}(x),\qquad
- [f^{(n-1)}(x)]_{x_{n-1}=a_{n-1}}=f^{(n-2)}(x);\ldots,\\
+ [f^{(n-1)}(x)]_{(x_{n-1}=a_{n-1})}=f^{(n-2)}(x),\\
  [f^{(\rho+1)}(x)]_{(x_{\rho+1}=a_{\rho+1})}&=f^*(x_1,\ldots,x_\rho),
 \end{aligned}
 \]
@@ -5030,12 +5030,12 @@ qui est également entière en $\xi$, ne s'annule pas identiquement --- c'est-à
 À cause de (7), $\Phi^*(z,u;x)$ a donc aussi le zéro $z=u(\xi)$; c'est-à-dire que $\xi$ appartient aux lignes de grandeurs (5). L'assertion correspondante vaut, d'après (6), si $\xi$ satisfait à un système d'équations relativement à une ligne de grandeurs conjuguée:
 \[
   F^*(x^{(k)})H^*(\xi)-H^*(x^{(k)})F^*(\xi)=0;
-  \qquad H^*(\xi)\ne0.
+  \qquad H(\xi)\ne0.
 \]
 Ainsi les lignes de grandeurs (5) sont définies comme les solutions $\xi$ du système d'équations
 \[
   F^*(x)H^*(\xi)-H^*(x)F^*(\xi)=0;
-  \qquad H^*(\xi)\ne0,
+  \qquad H(\xi)\ne0,
 \]
 où $F^*(x):H^*(x)$ parcourt toutes les fonctions de $\Kfield^*_{\rho\rho}$; ici la ligne $x$ peut aussi être remplacée par n'importe quelle ligne conjuguée.
 
@@ -5791,9 +5791,9 @@ La formule (1) exprime que $f(x)$ est une fonction symétrique entière rationne
 \end{aligned}
 \qquad
 \left(\begin{array}{c}
-\alpha+\alpha_1+
+(\alpha+\alpha_1+
 \cdots+
-\alpha_n=h\\
+\alpha_n=h)\\
 \alpha\ne h
 \end{array}\right),
 \]
@@ -7317,7 +7317,7 @@ obtenir par combinaison linéaire la \og{} forme normale de la \(\varrho\)-ième
 variation \fg{}, que l'on trouve pour \(\varrho=1\) chez Lagrange et pour
 \(\varrho=2\) chez Riemann; elle est caractérisée par le fait que les
 différentielles mixtes d'ordre \(\varrho+1\), à savoir
-\(d^\varrho\delta,d^{\varrho-1}\delta^2,\ldots\), sont éliminées. On obtient:
+\(d^\varrho\delta,d^{\varrho-1}\delta^2\ldots\), sont éliminées. On obtient:
 \begin{equation}
 \begin{gathered}
 \varOmega_1=\delta f(dx)-d f_\delta(dx),\\
@@ -8050,7 +8050,7 @@ vaut donc identiquement en \(\delta u\). Elle exprime l'invariance relative de \
 
 Pour appliquer ceci aux relations de divergence et aux dépendances dérivées, il faut d'abord montrer que le \(\bd u\) déduit de \(\varDelta u,\varDelta x\) satisfait effectivement aux lois de transformation de la variation \(\delta u\), pourvu seulement que les paramètres, respectivement les fonctions arbitraires, dans \(\bd v\) soient déterminés comme ils correspondent au groupe semblable des transformations infinitésimales en \(y,v\). Soit \(\mathfrak T_q\) la transformation qui fait passer \(x,u\) en \(y,v\), et soit \(\mathfrak T_p\) une transformation infinitésimale en \(x,u\). Alors la transformation semblable en \(y,v\) est donnée par \(\mathfrak T_r=\mathfrak T_q\mathfrak T_p\mathfrak T_q^{-1}\), les paramètres, respectivement les fonctions arbitraires, \(r\) étant donc déterminés par \(p\) et \(q\). En formules, cela s'exprime ainsi:
 \[
-\mathfrak T_p:\ \xi=x+\varDelta x(x,p),\qquad u^*=u+\varDelta u(x,u,p);
+\mathfrak T_p:\ \xi=x+\varDelta x(x,p);\qquad u^*=u+\varDelta u(x,u,p);
 \]
 \[
 \mathfrak T_q:\ y=A(x,q);\qquad v=B(x,u,q);
@@ -8662,7 +8662,7 @@ En formules, et dans le langage de la théorie des modules, cela s'exprime ainsi
 \]
 implique
 \[
-        F(\xi_{ik})\equiv0\pmod{\frM}\quad \text{identiquement en $\xi_{ik}$},
+        F(\xi_{ik})\equiv0 \bmod \frM\quad [\text{identiquement en $\xi_{ik}$}],
 \]
 et réciproquement.
 
@@ -8810,7 +8810,7 @@ il s'ensuit maintenant, par (5) et en tenant compte de (2), que
 \end{equation}
 Par la spécialisation $\alpha_4=\alpha_3,\;\beta_4=\beta_3$, les formules (6) et (7) donnent
 \[
-        K((ik))\equiv0\pmod p\quad \text{identiquement en $\alpha,\beta$}.
+        K(ik)\equiv0\pmod p\quad [\text{identiquement en $\alpha,\beta$}].
 \]
 D'après ce qui a été démontré sous a), on a donc
 \[
@@ -10804,7 +10804,7 @@ deux représentations les plus courtes, donc réduites, de $\ideal M$ comme plus
 \begin{aligned}
  \ideal M&=[\ideal D_1\cdots\ideal D_{i-1}\ideal B_i\ideal B_{i+1}\cdots\ideal B_k]
        =[\ideal D_1\cdots\ideal D_{i-1}\ideal D_i\ideal B_{i+1}\cdots\ideal B_k]\\
-       &=[\overline{\ideal A}_i,\ideal B_i]=[\overline{\ideal A}_i,\ideal D_i].
+       &=[\bar{\ideal A}_i,\ideal B_i]=[\bar{\ideal A}_i,\ideal D_i].
 \end{aligned}
 \]
 Il vient donc
@@ -13445,7 +13445,7 @@ où $\bar{x}_{1\nu},\ldots,\bar{x}_{i\nu}$ désignent un système de zéros asso
 
 \textbf{14. Caractéristique, corps parfaits et imparfaits, extension de première espèce.} Un corps $\Omega$ est dit de caractéristique zéro lorsque le corps premier qu'il contient, dérivé de l'unité, est du type du corps des nombres rationnels; il est dit de caractéristique $p$ lorsque ce corps premier est isomorphe à $\mathbb F_p$. Un corps $\Omega$ s'appelle parfait si tout polynôme irréductible à coefficients dans $\Omega$ se décompose en facteurs linéaires distincts dans un corps d'extension convenable; dans le cas contraire, il s'appelle imparfait. Tout corps de caractéristique zéro est parfait; un corps de caractéristique $p$ ne l'est que si et seulement si, avec chaque élément, il contient aussi sa racine $p$-ième. Un polynôme irréductible sur un corps imparfait est un polynôme de degré $r$ en $x^{p^f}$, et se décompose dans un corps d'extension convenable en $p^f$-ièmes puissances de $r$ facteurs linéaires distincts; $f$ est appelé exposant. Un polynôme irréductible est dit de première espèce lorsqu'il se décompose, dans un corps d'extension convenable, en facteurs linéaires distincts, l'exposant $f$ devenant nul; une extension est dite de première espèce lorsque chaque élément devient de première espèce, c'est-à-dire zéro d'un polynôme irréductible de première espèce. Toute extension qui naît par adjonction d'un élément de première espèce est de première espèce; pour les corps parfaits, il n'y a que des extensions de première espèce (Steinitz, \S{} 11 et \S{} 13).
 
-\textbf{15. Degré réduit et exposant d'une extension finie.} Si $\mathcal K$ est une extension finie d'un corps imparfait $\Omega$, alors $\mathcal K$ contient un sous-corps $\mathcal K_0$ de degré $r$, qui devient de première espèce relativement à $\Omega$ et qui se compose de tous et seulement les éléments de première espèce de $\mathcal K$. La $p^f$-ième puissance de tout élément de $\mathcal K$ appartient à $\mathcal K_0$, et il existe dans $\mathcal K$ des éléments qui sont exactement de degré $rp^f$. $r$ est appelé degré réduit, $f$ exposant de l'extension finie (Steinitz, \S{} 14, 1 et \S{} 14, 5).
+\textbf{15. Degré réduit et exposant d'une extension finie.} Si $\mathcal K$ est une extension finie d'un corps imparfait $\Omega$, alors $\mathcal K$ contient un sous-corps $\mathfrak{L}_0$ de degré $r$, qui devient de première espèce relativement à $\Omega$ et qui se compose de tous et seulement les éléments de première espèce de $\mathcal K$. La $p^f$-ième puissance de tout élément de $\mathcal K$ appartient à $\mathcal K_0$, et il existe dans $\mathcal K$ des éléments qui sont exactement de degré $rp^f$. $r$ est appelé degré réduit, $f$ exposant de l'extension finie (Steinitz, \S{} 14, 1 et \S{} 14, 5).
 \providecommand{\frakS}{\mathfrak S}
 \providecommand{\fraka}{\mathfrak a}
 \providecommand{\frakb}{\mathfrak b}
@@ -13553,7 +13553,7 @@ On placera encore en tête le fait suivant. Un corps $\mathcal R$ est dit de ran
 
 La construction du corps des zéros se fait maintenant en complète analogie avec la voie usuelle pour les polynômes irréductibles d'une indéterminée\footnote{Steinitz, \S{} 6.} selon le
 
-\textbf{Théorème III.} Au corps résiduel $(\mathcal R)$ d'un idéal premier $\frakp$ de dimension $n-i$ peut être associé isomorphiquement un corps des zéros $R$ de $\frakp$, qui devient de rang algébrique $n-i$ -- dépend de $n-i$ paramètres -- et peut en particulier être conçu comme corps d'extension fini de $\mathsf{P}(u,x_{i-1},\ldots,x_n)$. L'isomorphisme entre $(\mathcal R)$ et $R$ comprend celui entre $(\mathsf{P})$ et $\mathsf{P}$, $(\mathsf{P}(u))$ et $\mathsf{P}(u)$ et, si l'on prend $x_{i+1},\ldots,x_n$ pour paramètres, aussi celui entre $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ et $\mathsf{P}(u,x_{i+1},\ldots,x_n)$. Réciproquement, tout corps des zéros de rang algébrique $n-i$ -- dépendant de $n-i$ paramètres -- est isomorphe à $(\mathcal R)$.
+\textbf{Théorème III.} Au corps résiduel $(\mathfrak{K})$ d'un idéal premier $\frakp$ de dimension $n-i$ peut être associé isomorphiquement un corps des zéros $R$ de $\frakp$, qui devient de rang algébrique $n-i$ -- dépend de $n-i$ paramètres -- et peut en particulier être conçu comme corps d'extension fini de $\mathsf{P}(u,x_{i-1},\ldots,x_n)$. L'isomorphisme entre $(\mathcal R)$ et $R$ comprend celui entre $(\mathsf{P})$ et $\mathsf{P}$, $(\mathsf{P}(u))$ et $\mathsf{P}(u)$ et, si l'on prend $x_{i+1},\ldots,x_n$ pour paramètres, aussi celui entre $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ et $\mathsf{P}(u,x_{i+1},\ldots,x_n)$. Réciproquement, tout corps des zéros de rang algébrique $n-i$ -- dépendant de $n-i$ paramètres -- est isomorphe à $(\mathcal R)$.
 
 Le théorème III donne comme corollaire le théorème connu: si un idéal $\fraka$ s'annule en tous les zéros d'un idéal premier $\frakp$, alors $\fraka$ est divisible par $\frakp$.
 
@@ -13592,7 +13592,7 @@ où $\delta$ a la même signification que ci-dessus. De même est donnée la dé
 
 Comme corollaire du théorème IV, on obtient encore: si deux idéaux premiers coïncident dans leur forme des diviseurs élémentaires $P^{(i)}$, ils sont identiques.
 
-La preuve du théorème IV reviendra à montrer que la forme des diviseurs élémentaires $P^{(i)}$ est identique à l'équation fondamentale du corps d'extension $(\mathsf{P}(u,x_{i+1},\ldots,x_n),(x_i))$ sur $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$. On passe d'abord -- pour saisir la dépendance à l'égard des indéterminées $u_{\mu\nu}$, respectivement $t_{\mu\nu}$ -- au corps résiduel $(\overline{\mathcal R})$ de $\bar{\frakp}$, qui, d'après ce qui a été dit lors de la définition du rang algébrique, doit être de rang algébrique $n-i$ relativement à $(\bar{\mathsf{P}})$, où $(\bar{\mathsf{P}})$ désigne le sous-corps représenté par les éléments de $\mathsf{P}$. Car $(\overline{\mathcal R})$ naît par adjonction des indéterminées $u$, respectivement $t$, à un sous-corps isomorphe à $(\mathcal R)$, obtenu par formation de quotients à partir de toutes les classes, et seulement de celles, qui peuvent être représentées par des polynômes de $\bar{\mathfrak{J}}$, où $(\bar{\mathsf{P}})$ et $(\mathsf{P})$ se correspondent. Le rang algébrique de $(\overline{\mathcal R})$ relativement à $(\mathsf{P}(u))$ est donc égal à celui de ce sous-corps relativement à $(\mathsf{P})$, et par conséquent, en raison de l'isomorphisme, égal à celui de $(\mathcal R)$ relativement à $(\bar{\mathsf{P}})$. Comme $(\overline{\mathcal R})$ se déduit rationnellement, avec coefficients dans $(\bar{\mathsf{P}})$, des classes $(y_1),\ldots,(y_n)$, il doit donc y avoir parmi ces classes $(n-i)$ classes algébriquement indépendantes, et $(\overline{\mathcal R})$ naît comme corps d'extension algébrique fini du sous-corps engendré par l'adjonction de ces $(n-i)$ classes à $(\bar{\mathsf{P}})$.\footnote{Cette remarque montre que le théorème III avec son corollaire aurait pu être énoncé et démontré directement pour le corps des zéros $\bar R$ de $\bar{\frakp}$. Mais ce n'est que par le passage à l'idéal transformé que l'on obtient que, dans les plus grandes composantes primaires de même dimension d'un idéal quelconque, les mêmes paramètres apparaissent parmi les zéros; et c'est seulement ainsi que résulte le lien avec la norme et la forme des diviseurs élémentaires d'un idéal quelconque.}
+La preuve du théorème IV reviendra à montrer que la forme des diviseurs élémentaires $P^{(i)}$ est identique à l'équation fondamentale du corps d'extension $(\mathsf{P}(u,x_{i+1},\ldots,x_n),(x_i))$ sur $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$. On passe d'abord -- pour saisir la dépendance à l'égard des indéterminées $u_{\mu\nu}$, respectivement $t_{\mu\nu}$ -- au corps résiduel $(\bar{\mathfrak{K}})$ de $\bar{\frakp}$, qui, d'après ce qui a été dit lors de la définition du rang algébrique, doit être de rang algébrique $n-i$ relativement à $(\bar{\mathsf{P}})$, où $(\bar{\mathsf{P}})$ désigne le sous-corps représenté par les éléments de $\mathsf{P}$. Car $(\mathfrak{K})$ naît par adjonction des indéterminées $u$, respectivement $t$, à un sous-corps isomorphe à $(\bar{\mathfrak{K}})$, obtenu par formation de quotients à partir de toutes les classes, et seulement de celles, qui peuvent être représentées par des polynômes de $\bar{\mathfrak{J}}$, où $(\bar{\mathsf{P}})$ et $(\mathsf{P})$ se correspondent. Le rang algébrique de $(\mathfrak{K})$ relativement à $(\mathsf{P}(u))$ est donc égal à celui de ce sous-corps relativement à $(\mathsf{P})$, et par conséquent, en raison de l'isomorphisme, égal à celui de $(\bar{\mathfrak{K}})$ relativement à $(\bar{\mathsf{P}})$. Comme $(\bar{\mathfrak{K}})$ se déduit rationnellement, avec coefficients dans $(\bar{\mathsf{P}})$, des classes $(y_1),\ldots,(y_n)$, il doit donc y avoir parmi ces classes $(n-i)$ classes algébriquement indépendantes, et $(\bar{\mathfrak{K}})$ naît comme corps d'extension algébrique fini du sous-corps engendré par l'adjonction de ces $(n-i)$ classes à $(\bar{\mathsf{P}})$.\footnote{Cette remarque montre que le théorème III avec son corollaire aurait pu être énoncé et démontré directement pour le corps des zéros $\bar{\mathfrak{K}}$ de $\bar{\frakp}$. Mais ce n'est que par le passage à l'idéal transformé que l'on obtient que, dans les plus grandes composantes primaires de même dimension d'un idéal quelconque, les mêmes paramètres apparaissent parmi les zéros; et c'est seulement ainsi que résulte le lien avec la norme et la forme des diviseurs élémentaires d'un idéal quelconque.}
 
 Si l'on adjoint seulement les indéterminées $t_{\sigma\tau}$ qui interviennent dans $x_{i+1},\ldots,x_n$, il naît de nouveau un corps résiduel, qui contient les classes $(y_1),\ldots,(y_n)$ et $(x_{i+1}),\ldots,(x_n)$ et qui devient un corps d'extension algébrique fini de $(\mathsf{P}(t_{\sigma\tau},x_{i+1},\ldots,x_n))$ -- il s'agit alors de corps isomorphes à des sous-corps de $(\overline{\mathcal R})$, non identiques à eux; car, pour des indéterminées différentes, les classes sont certes représentées par les mêmes éléments, mais elles ne sont pas identiques, puisqu'elles ne contiennent pas les mêmes éléments. Dans la dépendance des classes $(y)$ par rapport à $(\mathsf{P}(t_{\sigma\tau},x_{i+1},\ldots,x_n))$, seules les indéterminées $t_{\sigma\tau}$ interviennent donc; formons maintenant, par adjonction de $t_{1i},\ldots,t_{ni}$, la classe $(x_i)=(t_{1i}y_1+\cdots+t_{ni}y_n)$; et soient $(x_{i\nu})=(t_{1i}y_{1\nu}+\cdots+t_{ni}y_{n\nu})$ les $r$ valeurs conjuguées distinctes situées dans le corps de Galois relatif à $(\mathsf{P}(t_{\sigma\tau},t_{1i},\ldots,t_{ni},x_{i+1},\ldots,x_n))$. Alors -- selon qu'il s'agit ou non d'extensions de première espèce -- le produit sur les facteurs $t-(x_{i\nu})$, ou sur leurs $p^f$-ièmes puissances, devient un polynôme irréductible $(G)$ relativement à $(\mathsf{P}(t,x_{i+1},\ldots,x_n))$; car, puisqu'il existe des éléments de degré $r\cdot p^f$ (\S{} 1, 15.), $(x_i)$ doit nécessairement être un tel élément, puisque tout élément naît par spécialisation des $t_{1i},\ldots,t_{ni}$; mais $(x_i)$ devient zéro de $(G)$. Si l'on passe au corps des zéros isomorphe de $\frakp$ et au corps de Galois qui en est dérivé, $G$ admet donc une décomposition en facteurs linéaires $t-t_{1i}\bar y_{1\nu}-\cdots-t_{ni}\bar y_{n\nu}$, respectivement en leurs $p^f$-ièmes puissances. Or, comme $(G)$ s'annule pour $t=(x_i)$, $G(x_i)$ est divisible par $\frakp$ et donc par $P^{(i)}$; et, comme polynôme irréductible relativement à $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ et primitif en $x_{i+1},\ldots,x_n$, $G$ doit devenir identique à $P^{(i)}$; la première décomposition du théorème IV est ainsi démontrée.
 
@@ -13734,7 +13734,7 @@ et par conséquent
 \[
  (Q_\lambda^{(i)})^{\sigma_\lambda}\equiv0\pmod{\frakq_{\lambda,\kappa}};
  \quad\hbox{donc}\quad
- (P_\lambda^{(i)})^{\rho_\lambda\sigma_\lambda}\equiv0\pmod{\frakp_{\lambda,\kappa}}
+ (P_\lambda^{(i)})^{\rho_\lambda\sigma_\lambda}\equiv0(\frakp_{\lambda\kappa})
 \]
 et par suite $P_\lambda^{(i)}\equiv0\pmod{\frakp_{\lambda,\kappa}}$. Il en résulte, comme dans la preuve du théorème IX, que, dans la représentation de $\frakr_\lambda$, il ne peut intervenir qu'un seul $\frakq_\lambda$ et un seul $\frakp_\lambda$ associé de dimension $n-i$, et que la forme des diviseurs élémentaires de $\frakp_\lambda$ est donnée par $P_\lambda^{(i)}$. Il reste à démontrer que $\frakp_\lambda$ est un idéal premier associé de $\frakm$ et à montrer que $\frakq_\lambda$ intervient effectivement dans au moins une représentation de $\frakm$ par plus grandes composantes primaires; alors $\frakr_\lambda$ est par là même reconnu comme composante isolée de la décomposition, puisqu'aucun idéal premier ne peut être absorbé dans un idéal de dimension égale ou plus basse, et précisément comme composante déterminée par $\frakp_\lambda$ et par tous les idéaux premiers associés de dimension plus élevée. Pour cette démonstration, il suffit de montrer que $\frakq_\lambda$ intervient dans une représentation la plus courte de $\frakg_i$, puisqu'une telle représentation peut toujours, d'après le théorème VIII, être complétée en une représentation la plus courte de $\frakm$; il suffit donc de montrer que la représentation
 \[
@@ -13792,7 +13792,7 @@ Le théorème XIV revient à affirmer que le corps résiduel $(\mathcal R)$ de $
 
 En effet, la $p^{f'}$-ième puissance ($f'\leqq f$) de chaque élément $z$ de $\mathfrak L$ appartient à $\mathfrak L_0$; ainsi $z$ devient zéro d'un polynôme irréductible $G(t)=(t-z)^{p^{f'}}$ à coefficients dans $\mathfrak L_0$. Soit $H(t)=(t-z)^\delta$ le polynôme irréductible dans $\mathfrak M$ ayant $z$ pour zéro; alors $H(t)$ possède aussi des coefficients dans $\mathfrak L_0(z)$, et donc les coefficients de $H(t)$ appartiennent au corps intersection de $\mathfrak M$ et de $\mathfrak L_0(z)$, donc à un corps intermédiaire entre $\mathfrak L_0$ et $\mathfrak L_0(z)$. Le degré de $z$ relativement à $\mathfrak M$ devient donc égal au degré relativement à ce corps intermédiaire, et ainsi, comme diviseur de $p^{f'}$, il est une puissance de $p$.
 
-Pour démontrer le théorème XIV, il suffit maintenant de remarquer que le corps $(\mathcal R')=(P(u,x_i,x_{i+1},\ldots,x_n))$ doit être de degré $r\cdot p^f$ relativement à $(P(u,x_{i+1},\ldots,x_n))$, si $r$ désigne le degré réduit et $f$ l'exposant de $(\mathcal R)$; et que, par conséquent, le corps de première espèce $(\mathcal R_0)$ contenu dans $(\mathcal R)$ doit être un sous-corps de $(\mathcal R')$. En effet, puisqu'il existe dans $(\mathcal R)$ des éléments de degré $r\cdot p^f$ (\S{} 1, 15.), il faut nécessairement que $(x_i)$ soit de ce degré, puisque tous les éléments de $(\mathcal R)$ naissent par spécialisation des $t_{\mu\nu}$ dans $(x_i)$; l'exposant de $(\mathcal R)$ coïncide donc avec l'exposant de la forme des diviseurs élémentaires, et $(x_i)^{p^f}$ devient de degré $r$ et élément de $(\mathcal R_0)$, donc élément primitif de $(\mathcal R_0)$. Mais comme $(\mathcal R)$ naît de $(\mathcal R')$ par adjonction d'un nombre fini d'éléments -- par exemple $(x_1),\ldots,(x_{i-1})$ --, l'application finiment répétée du lemme VIII donne la démonstration cherchée et, en même temps, l'estimation de $g$.\footnote{Voir à ce sujet les raisonnements parallèles chez A. Ostrowski, \emph{Zur arithmetischen Theorie der algebraischen Größen}, Gött. Nachr. 1919, p. 279--298; en particulier p. 288, où le théorème correspondant est énoncé sans démonstration.}
+Pour démontrer le théorème XIV, il suffit maintenant de remarquer que le corps $(\mathfrak{R}')=(\mathsf{P}(u,x_i,x_{i+1},\ldots,x_n))$ doit être de degré $r\cdot p^f$ relativement à $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, si $r$ désigne le degré réduit et $f$ l'exposant de $(\mathfrak{K})$; et que, par conséquent, le corps de première espèce $(\mathfrak{K}_0)$ contenu dans $(\mathfrak{K})$ doit être un sous-corps de $(\mathfrak{R}')$. En effet, puisqu'il existe dans $(\mathfrak{K})$ des éléments de degré $r\cdot p^f$ (\S{} 1, 15.), il faut nécessairement que $(x_i)$ soit de ce degré, puisque tous les éléments de $(\mathfrak{K})$ naissent par spécialisation des $t_{\mu\nu}$ dans $(x_i)$; l'exposant de $(\mathfrak{K})$ coïncide donc avec l'exposant de la forme des diviseurs élémentaires, et $(x_i)^{p^f}$ devient de degré $r$ et élément de $(\mathfrak{K}_0)$, donc élément primitif de $(\mathfrak{K}_0)$. Mais comme $(\mathfrak{K})$ naît de $(\mathfrak{R}')$ par adjonction d'un nombre fini d'éléments -- par exemple $(x_1),\ldots,(x_{i-1})$ --, l'application finiment répétée du lemme VIII donne la démonstration cherchée et, en même temps, l'estimation de $g$.\footnote{Voir à ce sujet les raisonnements parallèles chez A. Ostrowski, \emph{Zur arithmetischen Theorie der algebraischen Größen}, Gött. Nachr. 1919, p. 279--298; en particulier p. 288, où le théorème correspondant est énoncé sans démonstration.}
 
 Ajoutons maintenant les exemples qui montrent que le théorème XII ne peut pas, en général, être renforcé au-delà du théorème XIV; il s'agit d'un idéal premier dont la norme devient égale au carré de la forme des diviseurs élémentaires ($g>0$), et d'idéaux primaires propres dont les formes des diviseurs élémentaires deviennent des polynômes irréductibles; ce dernier exemple montre en même temps qu'il n'y a pas ici d'analogue du théorème XIV, mais que la norme peut devenir une puissance quelconque de la forme des diviseurs élémentaires.
 
@@ -15481,7 +15481,7 @@ Si, en particulier, $\mR$ est lui-même un corps, donc un corps d'extension de p
 
 \textbf{1.} Les corps de nombres et de fonctions considérés --- lorsqu'il s'agit de fonctions algébriques de plusieurs indéterminées ou de fonctions algébriques entières, on considère des extensions du domaine fonctionnel --- se rangent tous sous le type de corps suivant, avec fixation des éléments entiers.\footnote{\emph{Théorie des idéaux}, \S 3, nos 3 et 4.}
 
-Soit $\mo$ un \emph{anneau principal sans diviseurs de zéro et avec élément unité} (anneau des entiers rationnels, anneau de polynômes en une indéterminée à coefficients dans un corps, domaine fonctionnel), et soit $\Omega$ son \emph{corps des fractions}; soit $K$ une \emph{extension finie de première espèce} de $\Omega$, et soit $\mO$ l'\emph{anneau de tous les éléments de $K$ entiers relativement à $\mo$}.\footnote{Pour la définition des éléments entiers relativement à un anneau, cf. \emph{Théorie des idéaux}, \S 1, no 3.} \emph{Tout sous-anneau de $\mO$ qui contient $\mo$ est appelé un ordre; $\mO$ lui-même est appelé ordre maximal.}
+Soit $\mo$ un \emph{anneau principal sans diviseurs de zéro et avec élément unité} (anneau des entiers rationnels, anneau de polynômes en une indéterminée à coefficients dans un corps, domaine fonctionnel), et soit $\Omega$ son \emph{corps des fractions}; soit $K$ une \emph{extension finie de première espèce} de $\Omega$, et soit $\mO$ l'\emph{anneau de tous les éléments de $\mathfrak{K}$ entiers relativement à $\mo$}.\footnote{Pour la définition des éléments entiers relativement à un anneau, cf. \emph{Théorie des idéaux}, \S 1, no 3.} \emph{Tout sous-anneau de $\mO$ qui contient $\mo$ est appelé un ordre; $\mO$ lui-même est appelé ordre maximal.}
 
 Tout $\mo$-module contenu dans $\mO$, en particulier tout idéal d'un ordre et l'ordre lui-même, possède une \emph{base comme $\mo$-module}.\footnote{\emph{Théorie des idéaux}, \S 3, no 1.} Si $K$ est de degré $n$ relativement à $\Omega$, il suffit de se restreindre aux ordres de rang $n$ relativement à $\mo$, car tout ordre de rang inférieur engendre, par passage au corps des fractions, un corps intermédiaire entre $\Omega$ et $K$ de ce même degré, pour lequel toutes les hypothèses restent valables.
 
@@ -17273,7 +17273,7 @@ Si l'on considère maintenant $\ml_1$ comme module de représentation sur le sou
 
 \emph{Démonstration.}
 \[
-        \ml_1=\sum_i c_{i1}K=\sum_{i,j}c_{i1}\varkappa_j\Gamma.
+        \ml_1=\sum_i c_{i1}\mathsf{K}=\sum_{i,j}c_{i1}\varkappa_j\Gamma.
 \]
 Relativement à la base $(\ldots,c_{i1}\varkappa_j,\ldots)$, on a
 \[
@@ -18162,7 +18162,7 @@ est une extension propre de \([\mathfrak{G}]_{\mathfrak{o}_{\mathfrak{p}}}\). En
 \paragraph{Théorème 2.}
 \emph{Si \(\mathfrak{p}\) ne divise pas \(n\), tout idéal entier ou fractionnaire de \([\mathfrak{G}]_{\mathfrak{o}_{\mathfrak{p}}}\) est principal.}
 
-En effet, d'après le théorème 1, \([\mathfrak{G}]_{\mathfrak{o}_{\mathfrak{p}}}\) est un ordre maximal d'une algèbre semi-simple \(\mathfrak{p}\)-adique; les idéaux sont donc des idéaux principaux.\footnote{Hasse, loc. cit. La propriété d'idéal principal n'y est démontrée que pour les algèbres simples; elle en découle pourtant aussi pour les algèbres semi-simples par des raisonnements connus. En effet, les composantes d'un ordre maximal sont encore maximales; les composantes de l'idéal considéré sont donc des idéaux principaux, par exemple de base \(a_i\). Alors \(a=\sum a_i\) devient une base de l'idéal initial. -- Pour les groupes abéliens, voir encore la note 3.}
+En effet, d'après le théorème 1, \([\mathfrak{G}_{\mathfrak o_\mathfrak p}]\) est un ordre maximal d'une algèbre semi-simple \(\mathfrak{p}\)-adique; les idéaux sont donc des idéaux principaux.\footnote{Hasse, loc. cit. La propriété d'idéal principal n'y est démontrée que pour les algèbres simples; elle en découle pourtant aussi pour les algèbres semi-simples par des raisonnements connus. En effet, les composantes d'un ordre maximal sont encore maximales; les composantes de l'idéal considéré sont donc des idéaux principaux, par exemple de base \(a_i\). Alors \(a=\sum a_i\) devient une base de l'idéal initial. -- Pour les groupes abéliens, voir encore la note 3.}
 
 \subsection*{\S2. Modules de Galois, isomorphismes de modules, base normale}
 
@@ -19311,7 +19311,7 @@ En analogie exacte avec le \S 6, 3., la théorie des isomorphismes vaut ici pour
 \paragraph{Hypothèses.}
 Soit le système simple \(Z\) sur \(\mathsf{P}\) un corps d'extension fini séparable; soit \(\Omega\) un corps de décomposition fini ou infini sur \(\mathsf{P}\), \(\mathsf{Z}'=\mathsf{Z}^{(1)}\) un sous-corps isomorphe à \(Z\), et \(\Gamma\) le corps galoisien correspondant. D'après 1., on a donc la décomposition en somme directe
 \[
-        Z_\Omega=r^{(1)}+\ldots+r^{(n)}
+        Z_\Omega=\mathfrak r^{(1)}+\ldots+\mathfrak r^{(n)}
         =e^{(1)}Z_\Omega+\ldots+e^{(n)}Z_\Omega
         =e^{(1)}\Omega+\ldots+e^{(n)}\Omega .
 \]
@@ -19816,12 +19816,12 @@ Supposons maintenant que \(\Omega\) soit de caractéristique nulle. La représen
         \bar\Gg=\Hh\mathrm{S}_1+\ldots+\Hh\mathrm{S}_n
               =\mathrm{S}_1^{-1}\Hh+\ldots+\mathrm{S}_n^{-1}\Hh,
         \qquad
-        E_\Hh=\frac1h\sum_{H\in\Hh}\bar u_H,
+        \mathrm{E}_{\mathfrak h}=\frac1h\sum\bar u_{\mathfrak h},
 \]
 et
 \[
-        E_\Gg=\frac1h E_{\bar\Gg}
-              =\sum_i u_{S_i},\qquad
+        \mathrm{E}_{\mathfrak g}=\frac1h \mathrm{E}_{\bar{\mathfrak g}}
+              =\sum_i u_{s_i},\qquad
         u_{s_i}=\mathrm{E}_{\mathfrak h}\bar u_{s_i}.
 \]
 Alors l'idempotent \(\mathrm{E}_{\mathfrak h}\) engendre en particulier la représentation unité de \(\Hh\), et \(\mathrm{E}_{\mathfrak g}\), comme \(\mathrm{E}_{\bar{\mathfrak g}}\), engendre la représentation unité de \(\bar\Gg\). Pour les \(\mathrm{E}_{\mathfrak g}\) et les \(u_{S_i}\) ainsi définis, les relations (1) valent d'un côté, et (2) entièrement. Ici \(z\) parcourt tous les éléments de \(k\), de sorte que \(z^s\) parcourt ceux du corps conjugué \(k^s\), lequel est, comme sous-corps de \(\bar k\), également un sous-corps de \(\bar{\mathrm K}\). On a d'abord
@@ -20535,7 +20535,7 @@ puis, par extension, $\mathfrak C_\Gamma=\mathfrak A_\Gamma$. On a donc
 \mathfrak K_{\mathsf{K}^{(i)}}
 &=\mathfrak A_{\mathsf{K}^{(i)}}+\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}
 =\mathsf{K}^{(i)}e^{(i)}+\mathfrak P_{\mathsf{K}^{(i)}}^{(i)};
-&0&=[\mathfrak A_{K^{(i)}}^{(i)},\mathfrak P_{K^{(i)}}^{(i)}].\notag
+&0&=[\mathfrak A_{\mathsf{K}^{(i)}},\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}].\notag
 \end{align}
 Le théorème est ainsi démontré dans toutes ses parties. Signalons encore qu'il s'agit d'un \emph{théorème de structure entièrement invariant}, puisque toutes les constructions qui y interviennent ($\mathfrak K_{\mathsf{K}}$, $\mathfrak K_\Gamma$, $\mathfrak P_{\mathsf{K}}$, $\mathfrak A_{\mathsf{K}}$) sont définies sans choix de base.\srcfn{18)}{Une formulation au moyen d'une équation définissante et de la décomposition du polynôme correspondant en facteurs linéaires ne serait pas invariante.}
 
@@ -23609,7 +23609,7 @@ $K_1$ est défini comme identique à $K$. Il est manifeste que $K_2$ est rationn
 
 La démonstration du théorème principal (théorème II) repose maintenant sur le second lemme suivant.
 
-\textbf{Lemme auxiliaire II.} Si l'on pose $(f_i,g_i,p^\varrho)=q^{(i)}$, alors, pour chaque $i$ de la suite infinie des entiers $1,2,\ldots$, on a :
+\textbf{Lemme auxiliaire II.} Si l'on pose $(f_i,g_i,\mathfrak{p}^\varrho)=q^{(i)}$, alors, pour chaque $i$ de la suite infinie des entiers $1,2,\ldots$, on a :
 
 Pour la congruence
 \[
@@ -23696,7 +23696,7 @@ On a $h_ig_i\equiv0(\mathfrak{q}^{(i)})$; donc, en vertu de la première relatio
 $h_iy^{(g_i)}\cdot(g_i(0,y):y^{(g_i)})\equiv0(\mathfrak{q}^{(i)})$; puisque $g_i(0,y):y^{(g_i)}\not\equiv0(y)$, il s'ensuit que $h_iy^{(g_i)}\equiv0(\mathfrak{q}^{(i)})$.
 
 Avant de démontrer (5), faisons la \emph{remarque} suivante, qui se lit immédiatement dans (1) : $f_i$ et $g_i$ ne peuvent avoir pour diviseur commun qu'un polynôme $d(y)$ en $y$ qui n'est pas divisible par $y$ :
-$f_i=d_i(y)\bar f_i$, $g_i=d_i(y)\bar g_i$, où $\bar f_i$ et $\bar g_i$ sont premiers entre eux. Puisque $d(y)\not\equiv0(\mathfrak{p})$, on a donc aussi $q^{(i)}=(\bar f_i,\bar g_i,p^\varrho)$; cet idéal est égal à $(\bar f_i,\bar g_i,\mathfrak{p}^\sigma)$ pour tout $\sigma\geqq\varrho$, en tant que diviseur de $\mathfrak{q}$ pour tout tel $\sigma$; ainsi $\mathfrak{q}^{(i)}$ est la composante primaire de $(\bar f_i,\bar g_i)$ correspondant à l'origine.
+$f_i=d_i(y)\bar f_i$, $g_i=d_i(y)\bar g_i$, où $\bar f_i$ et $\bar g_i$ sont premiers entre eux. Puisque $d(y)\not\equiv0(\mathfrak{p})$, on a donc aussi $q^{(i)}=(\bar f_i,\bar g_i,\mathfrak{p}^\varrho)$; cet idéal est égal à $(\bar f_i,\bar g_i,\mathfrak{p}^\sigma)$ pour tout $\sigma\geqq\varrho$, en tant que diviseur de $\mathfrak{q}$ pour tout tel $\sigma$; ainsi $\mathfrak{q}^{(i)}$ est la composante primaire de $(\bar f_i,\bar g_i)$ correspondant à l'origine.
 
 Soient $\gamma_1,\delta_1;\ldots;\gamma_r,\delta_r$ les zéros de $(\bar f_i,\bar g_i)$ distincts de $x=0$, $y=0$, et soient $\tau_1,\ldots,\tau_r$ les exposants des composantes primaires correspondantes de $(\bar f_i,\bar g_i)$; dans le produit
 \[
