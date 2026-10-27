@@ -1055,7 +1055,7 @@ pour $(a\theta u)^2$\srcfn{*)}{Gordan--Kerschensteiner, loc. cit., p.~92.} :
 \begin{aligned}
 (a\theta u)^2&=\frac16\nu\cdot f-\frac23u_x\cdot a_\nu
 +\frac23u_x^2\cdot a_\nu^2-\frac{i}{18}u_x^4,\\
-a_\vartheta&=\frac13u_x\cdot\A,\\
+\underline{a_\vartheta}&=\frac13u_x\cdot\A,\\
 a_\vartheta(a\theta u)&=0,\\
 a_\vartheta^2&=\A,\\
 (a\theta u)^3&=0,\\
@@ -2802,7 +2802,7 @@ Série de formes $((\vartheta \nu x),s,u)^2s_\nu$ : réduisants $s_\nu^2$ et $s_
 (\widehat{\vartheta \nu}su)s_\nu(\theta su)=s_\nu s_\vartheta(\theta su)=-\frac12(\widehat{\vartheta \nu}su)^2(\theta su),
 \]
 \[
-\theta_\nu(\widehat{\vartheta \nu su})s_\nu=\theta_\nu s_\nu s_\vartheta=-\frac12\theta_\nu(\widehat{\vartheta \nu su})^2.
+\theta_\nu(\widehat{\vartheta \nu}su)s_\nu=\theta_\nu s_\nu s_\vartheta=-\frac12\theta_\nu(\widehat{\vartheta \nu}su)^2.
 \]
 Série de formes $\theta_\nu s_\nu(\theta su)$ : réduisant $a_\nu s_\nu(asu)^2$ par double réduction des expressions
 \[
@@ -4145,7 +4145,7 @@ Les invariants simultanés des séries de formes $f$ et $H$ donnent toutes les p
 
 2. Elles satisfont aux équations différentielles (46.). Si l'on applique en effet à $\varphi$ le procédé différentiel (45.), il vient:
 \[
- \varphi'=\bigl(q_{n-\sigma-\lambda}s^{(1)}\cdots s^{(\sigma)}\mid [s^{(1)}\cdots s^{(\tau)}]_{n-\tau}p_{\tau-\lambda}\bigr),\qquad (\sigma\ge\tau).
+ \varphi'=\bigl(q_{n-\sigma-\lambda}s^{(1)}\cdots s^{(\sigma)}\mid [s^{(1)}\cdots s^{(\tau)}]_{n-\tau}p_{\tau-\lambda}\bigr).\qquad (\sigma\ge\tau)
 \]
 De l'identité de décomposition (30.) il résulte, si l'on identifie les séries $q_\sigma=s^{(1)}\cdots s^{(\sigma)}$, $p_{n-\tau}=[s^{(1)}\cdots s^{(\tau)}]_{n-\tau}$ formées à partir des séries $s$ avec les $q_\rho,p_\tau$ qui y apparaissent:
 \[
@@ -4763,7 +4763,7 @@ d'après le lemme, de telle sorte que le rang algébrique $\rho$ du système (1)
 \begin{aligned}
  [f(x)]_{(x_n=a_n)}&=f^{(n-1)}(x),\qquad
  [f^{(n-1)}(x)]_{x_{n-1}=a_{n-1}}=f^{(n-2)}(x);\ldots,\\
- [f^{(\rho+1)}(x)]_{x_{\rho+1}=a_{\rho+1}}&=f^*(x_1,\ldots,x_\rho),
+ [f^{(\rho+1)}(x)]_{(x_{\rho+1}=a_{\rho+1})}&=f^*(x_1,\ldots,x_\rho),
 \end{aligned}
 \]
 à savoir
@@ -6516,7 +6516,7 @@ alors
 \begin{equation}
  \xi-\zeta=\dfrac{b_1(\eta)}{\varkappa};\qquad;
  \qquad
- c_i(\eta)\equiv b_i(\eta)\pmod{\frac{b_1(\eta)}{\chi}},
+ c_i(\eta)\equiv b_i(\eta)\pmod{\dfrac{b_1(\eta)}{\varkappa}},
 \tag{5}
 \end{equation}
 où $b_1(\eta)$ commence par des termes d'au moins la dimension $\nu$. Or les $c_i(\eta)$, comme le montre la comparaison de (2) avec (4), sont de degré $\chi$ dans les coefficients $a_i(\eta)$ de (2), donc de degré au plus $\varkappa\cdot\lambda$ dans les $\eta$; d'autre part tous les $b_i(\eta)$ commencent par des termes d'au moins la dimension $\nu$. Ainsi, si l'on choisit $\nu>\varkappa\cdot\lambda$, (5) donne
@@ -6537,7 +6537,7 @@ La construction des domaines $\mathfrak G$ les plus généraux au moyen d'une ba
 
 Par analogie avec la base algébrique, la base rationnelle doit être définie comme suit : \og{} Un système $\Theta$ de nombres $\vartheta$ est appelé base rationnelle de tous les nombres si $\Theta$ permet d'exprimer rationnellement tout nombre --- avec coefficients dans $\mathsf{K}$\footnote{Par fonctions rationnelles il faut toujours entendre de telles fonctions à coefficients algébriques; ces coefficients algébriques sont inclus dans la définition à cause de III et IV. Il serait plus adéquat d'exiger des coefficients rationnels aussi bien dans III et IV que dans la définition de la base rationnelle. Les raisonnements des \S{}\S{} 6 et 7 restent littéralement inchangés si l'on remplace seulement le corps $\mathsf{K}$ de tous les nombres algébriques par le corps de tous les nombres rationnels.} --- tandis que, sous au moins un bon ordre, aucun nombre de base ne peut être exprimé rationnellement --- avec coefficients dans $\mathsf{K}$ --- par un nombre fini de nombres de base précédents. \fg{}\footnote{À la différence des bases linéaire et algébrique, l'ordre des éléments joue ici un rôle. Par exemple, dans l'ordre $\eta,\sqrt{\eta}$ les deux éléments doivent être admis, tandis que dans l'ordre inverse seul $\sqrt{\eta}$ doit être admis.}
 
-Soumettons à un bon ordre $\Omega$ un domaine $\mathfrak G$ formé d'entiers transcendants. Il peut alors arriver qu'une quantité $z$ de $\mathfrak G$ soit exprimable rationnellement par un nombre fini de quantités précédentes de $\mathfrak G$; c'est-à-dire qu'elle satisfasse à une équation $z=\varphi(\zeta)$, où $\varphi(\zeta)$ est une fonction rationnelle, à coefficients dans $\mathsf{K}$, de $\xi_1,\ldots,\xi_t$. En particulier, tout nombre algébrique $\alpha$ du domaine satisfait à l'équation $z=\alpha$. Les quantités restantes $\vartheta$ de $\mathfrak G$ forment un système $\Theta$ dont il faut montrer qu'il est une base rationnelle de toutes les quantités de $\mathfrak G$. En effet, par hypothèse, chaque quantité $\vartheta$ est rationnellement indépendante des quantités précédentes de $\Theta$. L'argument d'induction\footnote{Cf. Zermelo, loc. cit., \S{} 1.} montre en outre que toute relation $z=\varphi(\zeta)$ entraîne une relation $z=\psi(\vartheta)$; sinon il devrait y avoir un premier élément $z_0=\varphi_0(\zeta_1\cdots\zeta_t)$ qui ne puisse pas être exprimé rationnellement par les $\vartheta$, tandis que les $\xi_1,\ldots,\xi_t$ précédents seraient des fonctions rationnelles des $\vartheta$; cela donne une contradiction. Par II, $\Theta$ est en même temps une base rationnelle de tous les nombres; par III et I, outre $\Theta$, $\mathfrak G$ contient comme diviseur le domaine entier $[\Theta]$ constitué de tous les polynômes entiers en les $\vartheta$, tandis que, par IV, $[\Theta]$ ne contient aucun nombre algébriquement fractionnaire. Ainsi la base rationnelle $\Theta$ de tous les nombres satisfait à la condition accessoire que le domaine entier $[\Theta]$ qui en provient ne contienne aucun nombre algébriquement fractionnaire;\footnote{Que ce soit réellement une condition est montré par exemple par le fait que les deux quantités $\eta,\frac1{2\sqrt{\eta}}$ ne sont pas admissibles comme éléments de base, tandis que $\eta,\frac1{\sqrt{\eta}}$ le sont.} $\Theta$ est une \emph{base rationnelle avec condition accessoire} pour tous les nombres. Donc, par analogie avec le \S{} 2 : \emph{Tout domaine $\mathfrak G$ peut être construit au moyen d'une base rationnelle avec condition accessoire, de manière que $\mathfrak G$ contienne le domaine entier $[\Theta]$ comme diviseur.}
+Soumettons à un bon ordre $\Omega$ un domaine $\mathfrak G$ formé d'entiers transcendants. Il peut alors arriver qu'une quantité $z$ de $\mathfrak G$ soit exprimable rationnellement par un nombre fini de quantités précédentes de $\mathfrak G$; c'est-à-dire qu'elle satisfasse à une équation $z=\varphi(\zeta)$, où $\varphi(\zeta)$ est une fonction rationnelle, à coefficients dans $\mathsf{K}$, de $\zeta_1,\ldots,\zeta_t$. En particulier, tout nombre algébrique $\alpha$ du domaine satisfait à l'équation $z=\alpha$. Les quantités restantes $\vartheta$ de $\mathfrak G$ forment un système $\Theta$ dont il faut montrer qu'il est une base rationnelle de toutes les quantités de $\mathfrak G$. En effet, par hypothèse, chaque quantité $\vartheta$ est rationnellement indépendante des quantités précédentes de $\Theta$. L'argument d'induction\footnote{Cf. Zermelo, loc. cit., \S{} 1.} montre en outre que toute relation $z=\varphi(\zeta)$ entraîne une relation $z=\psi(\vartheta)$; sinon il devrait y avoir un premier élément $z_0=\varphi_0(\zeta_1\cdots\zeta_t)$ qui ne puisse pas être exprimé rationnellement par les $\vartheta$, tandis que les $\xi_1,\ldots,\xi_t$ précédents seraient des fonctions rationnelles des $\vartheta$; cela donne une contradiction. Par II, $\Theta$ est en même temps une base rationnelle de tous les nombres; par III et I, outre $\Theta$, $\mathfrak G$ contient comme diviseur le domaine entier $[\Theta]$ constitué de tous les polynômes entiers en les $\vartheta$, tandis que, par IV, $[\Theta]$ ne contient aucun nombre algébriquement fractionnaire. Ainsi la base rationnelle $\Theta$ de tous les nombres satisfait à la condition accessoire que le domaine entier $[\Theta]$ qui en provient ne contienne aucun nombre algébriquement fractionnaire;\footnote{Que ce soit réellement une condition est montré par exemple par le fait que les deux quantités $\eta,\frac1{2\sqrt{\eta}}$ ne sont pas admissibles comme éléments de base, tandis que $\eta,\frac1{\sqrt{\eta}}$ le sont.} $\Theta$ est une \emph{base rationnelle avec condition accessoire} pour tous les nombres. Donc, par analogie avec le \S{} 2 : \emph{Tout domaine $\mathfrak G$ peut être construit au moyen d'une base rationnelle avec condition accessoire, de manière que $\mathfrak G$ contienne le domaine entier $[\Theta]$ comme diviseur.}
 
 Soit $\Theta$ une base rationnelle quelconque avec condition accessoire pour tous les nombres --- dont l'existence est donc garantie par l'existence des domaines $\mathfrak G$. Soit $\mathfrak N(\mathfrak G)$ l'ensemble de tous les domaines $\mathfrak G$ qui contiennent $\Theta$ et donc $[\Theta]$. Lorsque $\Theta$ parcourt toutes les bases possibles avec condition accessoire, $\mathfrak N(\mathfrak G)$ parcourt, d'après ce qui précède, l'ensemble de tous les domaines $\mathfrak G$; par conséquent nous pouvons à nouveau nous limiter aux domaines $\mathfrak G$ de $\mathfrak N(\mathfrak G)$.
 
@@ -6840,7 +6840,7 @@ où les $a_i(\vartheta)$ sont des grandeurs de $\Kfield(\vartheta_0)$. Il y a al
 
 2) $\vartheta_0$ est algébriquement dépendant de $\Kfield(\vartheta_0)$. Alors $H(\vartheta_0)$ est divisible par l'équation $F(\vartheta_0)$ irréductible relativement à $\Kfield(\vartheta_0)$; c'est-à-dire que, identiquement en $t$,
 \[
-H(t;a_i(\vartheta))=F(t;\vartheta)\cdot G(t;\vartheta_i).
+H(t;a_i(\vartheta))=F(t,\vartheta)\cdot G(t,\vartheta_i).
 \]
 Comme tous les coefficients qui interviennent appartiennent à $\Kfield(\vartheta_0)$, la relation correspondante est remplie dans le corps isomorphe $\Kfield(f(\vartheta_0))$:
 \[
@@ -8080,7 +8080,7 @@ Pour appliquer ceci aux relations de divergence et aux dépendances dérivées, 
 \mathfrak T_p:\ \xi=x+\varDelta x(x,p),\qquad u^*=u+\varDelta u(x,u,p);
 \]
 \[
-\mathfrak T_q:\ y=A(x,q),\qquad v=B(x,u,q);
+\mathfrak T_q:\ y=A(x,q);\qquad v=B(x,u,q);
 \]
 \[
 \mathfrak T_q\mathfrak T_p:\ \eta=A(x+\varDelta x(x,p),q),\quad
@@ -8460,7 +8460,7 @@ La démonstration repose sur un raffinement d'intégralité de la démonstration
 
 Si l'on ne considère que les invariants entiers, la condition 1) peut être satisfaite exactement comme ci-dessus dès que, pour les invariants de formes linéaires, on a démontré le théorème plus précis selon lequel \emph{tous les invariants entiers des formes linéaires binaires sont des fonctions polynomiales entières des déterminants de ces formes linéaires}. Je montre au \S\ 3 que tel est effectivement le cas, sous la forme que l'ensemble de toutes les relations modulo un nombre premier quelconque entre ces déterminants coïncide avec l'ensemble de toutes les relations identiques; autrement dit, le module correspondant à ces relations reste un module premier modulo tout nombre premier. Cette vérification s'effectue en normalisant les classes résiduelles relativement au module des formes quadratiques correspondant aux relations quadratiques entre les déterminants; ces formes quadratiques se révèlent alors former une base entière du module, modulo tout nombre premier, tandis qu'auparavant elles n'étaient connues comme base du module que si l'on faisait abstraction de l'intégralité.
 
-Pour satisfaire à la condition 2), aucune modification n'est nécessaire, puisque l'introduction de produits de puissances ne touche pas aux coefficients entiers. La condition 3) dit maintenant que $n_1!\cdots n_\mu! I$ (où $n_1,\ldots,n_\mu$ sont les degrés des différentes formes fondamentales) devient une fonction symétrique entière de rangées de quantités, et que réciproquement toute fonction symétrique entière de ces rangées devient un invariant entier. Mais, comme on le voit facilement, ces fonctions symétriques entières de rangées possèdent une base entière, pour laquelle les seules fonctions élémentaires ne suffisent plus. L'application du théorème de la base de Hilbert à coefficients entiers fournit alors aussi une base entière pour les $I$ eux-mêmes.
+Pour satisfaire à la condition 2), aucune modification n'est nécessaire, puisque l'introduction de produits de puissances ne touche pas aux coefficients entiers. La condition 3) dit maintenant que $n_1!\ldots n_\mu! I$ (où $n_1,\ldots n_\mu$ sont les degrés des différentes formes fondamentales) devient une fonction symétrique entière de rangées de quantités, et que réciproquement toute fonction symétrique entière de ces rangées devient un invariant entier. Mais, comme on le voit facilement, ces fonctions symétriques entières de rangées possèdent une base entière, pour laquelle les seules fonctions élémentaires ne suffisent plus. L'application du théorème de la base de Hilbert à coefficients entiers fournit alors aussi une base entière pour les $I$ eux-mêmes.
 
 Le \S\ 1 réunit les théorèmes particuliers de finitude correspondant aux conditions 1), 2) et 3), dont la démonstration de finitude découle au \S\ 2. Les théorèmes particuliers de finitude correspondant à la condition 3) donnent aussi la finitude des invariants entiers des groupes finis de substitutions entières ou algébriquement entières, comme il est brièvement exposé au \S\ 4.
 
@@ -9861,7 +9861,7 @@ c'est-à-dire que, dans le groupe $\mA_1$, chaque classe résiduelle se correspo
 \begin{equation}
 \left\{
 \begin{aligned}
- a_r t_{1\varkappa}a_\varkappa&=0 &&(\varkappa=1,\ldots,\alpha,\ r\ne1),\\
+ \mathfrak{a}_r \mathfrak{t}_{1\varkappa}\mathfrak{a}_\varkappa&=0 &&(\varkappa=1,\ldots,\alpha,\ r\ne1),\\
  \text{et pour }s>1\qquad \mathfrak{a}_r \mathfrak{t}_{s1}\mathfrak{a}_1&=0 &&(r\ne s),\\
  \text{donc aussi}\qquad \mathfrak{t}_{1\varkappa}\mathfrak{a}_\varkappa&=\mathfrak{a}_1\mathfrak{t}_{1\varkappa}\mathfrak{a}_\varkappa,
  & \mathfrak{t}_{i1}\mathfrak{a}_1&=\mathfrak{a}_i\mathfrak{t}_{i1}\mathfrak{a}_1.
@@ -9955,7 +9955,7 @@ Mais les groupes $\mB_\rho$ sont aussi isomorphes entre eux et aux groupes $\mA_
  \mathfrak{r}_{\rho\sigma}\mathfrak{a}_\sigma=\sum_i\lambda_{\rho i}\mathfrak{t}_{i\sigma}\mathfrak{a}_\sigma,
  \qquad
  \mathfrak{r}^{\sigma\rho}=\sum_\varkappa\lambda^{\rho\varkappa}\mathfrak{t}_{\sigma\varkappa}\mathfrak{a}_\varkappa
- =r^{\sigma\rho}b_\rho\footnotemark
+ =\mathfrak{r}^{\sigma\rho}\mathfrak{b}_\rho\footnotemark
 \]
 \footnotetext{À cause de (37), on a
 \[
@@ -9975,7 +9975,7 @@ sont satisfaites:
 \left\{
 \begin{aligned}
  \mathfrak{b}_\varkappa \mathfrak{r}_{\rho\sigma}\mathfrak{a}_\sigma&=0 &&(\varkappa\ne\rho);&
- r^{\sigma\rho}r_{\rho\sigma}a_\sigma&=a_\sigma\footnotemark,\\
+ \mathfrak{r}^{\sigma\rho}\mathfrak{r}_{\rho\sigma}\mathfrak{a}_\sigma&=\mathfrak{a}_\sigma\footnotemark,\\
  \mathfrak{a}_\varkappa \mathfrak{r}^{\sigma\rho}\mathfrak{b}_\rho&=0 &&(\varkappa\ne\sigma);&
  \mathfrak{r}_{\rho\sigma}\mathfrak{r}^{\sigma\rho}\mathfrak{b}_\rho&=\mathfrak{b}_\rho,
 \end{aligned}\right.
@@ -10358,11 +10358,11 @@ Il s'agit du problème général de la \textbf{théorie de l'élimination}: dét
 \]
  de telle sorte que $R_{\mathfrak M}$ s'annule pour tous les zéros de $\mathfrak M$ et seulement pour ceux-ci. Si $\mathfrak N$ est un diviseur de $\mathfrak M$, et si $R_{\mathfrak N}$ et $R_{\mathfrak M}$ coïncident, alors $\mathfrak N$ et $\mathfrak M$ eux-mêmes coïncident également.
 
-La seconde partie du théorème montre que la forme résultante fournit les zéros avec leur multiplicité caractéristique. Elle repose sur le fait que $\mathfrak M$ peut être considéré comme un module de formes linéaires dans les produits de puissances de $x_1,\ldots,x_{i-1}$; les différents facteurs $R^{(i)}(x_i,\ldots,x_n)$ de $R_{\mathfrak M}$ deviennent alors les normes du \og{}module fondamental\fg{} correspondant par rapport à ce module, lorsque $x_{i+1},\ldots,x_n$ sont adjoints au domaine des coefficients. Si l'on fait appel à la théorie abstraite des idéaux, on obtient pour cela l'interprétation suivante: si
+La seconde partie du théorème montre que la forme résultante fournit les zéros avec leur multiplicité caractéristique. Elle repose sur le fait que $\mathfrak M$ peut être considéré comme un module de formes linéaires dans les produits de puissances de $x_1,\ldots x_{i-1}$; les différents facteurs $R^{(i)}(x_i\ldots x_n)$ de $R_{\mathfrak M}$ deviennent alors les normes du \og{}module fondamental\fg{} correspondant par rapport à ce module, lorsque $x_{i+1},\ldots x_n$ sont adjoints au domaine des coefficients. Si l'on fait appel à la théorie abstraite des idéaux, on obtient pour cela l'interprétation suivante: si
 \[
  \mathfrak M=[\mathfrak Q,\mathfrak Q_1,\ldots,\mathfrak Q_r]=[\mathfrak Q,\mathfrak L]
 \]
-est une décomposition de $\mathfrak M$ en idéaux primaires $\mathfrak Q_i$, et si $\mathfrak L$ est le complément de $\mathfrak Q$, alors à l'idéal $\mathfrak Q$ correspond un facteur primaire $Q^{(i)}(x_i,\ldots,x_n)$ de $R^{(i)}(x_i,\ldots,x_n)$, qui représente, au sens indiqué ci-dessus, la norme de $\mathfrak L$ relativement à $\mathfrak Q$.
+est une décomposition de $\mathfrak M$ en idéaux primaires $\mathfrak Q_\lambda$, et si $\mathfrak L$ est le complément de $\mathfrak Q$, alors à l'idéal $\mathfrak Q$ correspond un facteur primaire $Q^{(i)}(x_i\ldots x_n)$ de $R^{(i)}(x_i\ldots x_n)$, qui représente, au sens indiqué ci-dessus, la norme de $\mathfrak L$ relativement à $\mathfrak Q$.
 \clearpage
 \setcounter{footnote}{0}
 \section*{\NoetherNavAnchor{P19}{19. Théorie des idéaux dans les anneaux}19. Théorie des idéaux dans les anneaux}
@@ -10985,7 +10985,7 @@ De $\ideal T\cdot\ideal S\equiv0(\ideal R)$, on déduit alors $\ideal T\cdot\ide
 
 3. Soit $\widehat{\ideal S}_i$ le complément de $\ideal S_i$; de $\ideal T_0\cdot\ideal R\equiv0(\ideal S_i)$, et aussi de $\ideal C_i\cdot\ideal R\equiv0(\ideal C_i)$, on déduit que $[\ideal T_0,\ideal C_i]\cdot\ideal R\equiv0(\ideal S)$. Si $\ideal T_0$ était un diviseur propre de $\ideal S_i$, alors, puisque la représentation $\ideal S=[\ideal S_i,\widehat{\ideal S}_i]$ est réduite, $[\ideal T_0,\widehat{\ideal S}_i]$ serait aussi un diviseur propre de $\ideal S$, contrairement à l'hypothèse.
 
-4. De $\ideal T\ideal S_i\equiv0(\ideal R)$, où $\ideal T_0$ est un diviseur propre de $\ideal R$, on déduit aussi $\ideal T_0\cdot\ideal S\equiv0(\ideal R)$; ainsi $\ideal T_0$ serait un diviseur propre de $\ideal R$, contrairement à l'hypothèse.
+4. De $\ideal T_0\ideal S_i\equiv0(\ideal R)$, où $\ideal T_0$ est un diviseur propre de $\ideal R$, on déduit aussi $\ideal T_0\cdot\ideal S\equiv0(\ideal R)$; ainsi $\ideal T_0$ serait un diviseur propre de $\ideal R$, contrairement à l'hypothèse.
 
 La définition V montre en particulier que tout idéal est relativement premier à l'idéal unité $\ideal O$ formé de tous les éléments de $\Sigma$;\footnote{$\ideal O$ joue le rôle de l'unité seulement relativement à la divisibilité et au plus petit commun multiple, non relativement à la formation de produits. On a par exemple $\ideal O=(x)$ pour le domaine de tous les polynômes entiers en $x$ sans terme constant; $\ideal O=(2)$ pour le domaine de tous les nombres pairs.} cependant les théorèmes suivants ne valent que pour des idéaux différents de $\ideal O$.
 
@@ -11472,7 +11472,7 @@ Soit $\Sigma$ le domaine de toutes les matrices entières à $n^2$ éléments, p
 
 Nous montrons d'abord que tout idéal devient un idéal principal. Pour cela, dans le cas des idéaux à droite, nous associons à chaque matrice $A=(a_{ik})$ un module
 \[
- A=(a_{11}\xi_1+\cdots+a_{1n}\xi_n,
+ \mathsf{A}=(a_{11}\xi_1+\cdots+a_{1n}\xi_n,
  \ldots,
  a_{n1}\xi_1+\cdots+a_{nn}\xi_n)
 \]
@@ -12027,15 +12027,15 @@ Il s'agit dans ce qui suit du \emph{problème général de la théorie de l'éli
 
 \emph{À tout idéal $\mideal$ de polynômes on peut associer une forme résultante:}
 \[
- R_{\mideal}=R^{(1)}(x_1,\ldots,x_n)\cdots
- R^{(i)}(x_i,\ldots,x_n)\cdots R^{(n)}(x_n)\zero{\mideal},
+ R_{\mideal}=R^{(1)}(x_1\ldots x_n)\cdot\ldots\cdot
+ R^{(i)}(x_i\ldots x_n)\cdot\ldots\cdot R^{(n)}(x_n)\zero{\mideal},
 \]
 \footnotetext{Kurt Hentzelt est porté disparu depuis octobre 1914 devant Dixmuiden et doit être compté parmi les morts. Le mémoire donné ici est une adaptation entièrement libre de la partie la plus essentielle de sa dissertation \og Zur Theorie der Formenmoduln und Resultanten \fg{}, avec laquelle il obtint son doctorat à l'été 1914 auprès de E. Fischer à Erlangen. Cette dissertation, composée tout entière sur le fondement de ses propres idées, est construite sans lacunes; mais lemme succède à lemme, tous les concepts sont décrits par des formules à quatre et cinq indices, le texte fait presque entièrement défaut, de sorte que les plus grandes difficultés s'opposent à la compréhension. Il n'a lui-même plus eu le temps d'accomplir le remaniement projeté. Je reproduis le travail sous une forme purement conceptuelle; il en résulte une grande simplification des démonstrations, qui remontent partout, dans leurs idées fondamentales, à Hentzelt, et, je l'espère, la beauté du travail devient manifeste. -- Les parties de la dissertation qui, une base étant donnée, concernent la question de la formation, en un nombre fini d'étapes, des fonctions qui apparaissent doivent être réservées à une publication séparée. (E. N.)}
 \emph{de telle sorte que $R_{\mideal}$ s'annule pour tous les zéros de $\mideal$, et seulement pour ceux-ci. Si $\nideal$ est un diviseur de $\mideal$, et si les formes résultantes $R_{\nideal}$ et $R_{\mideal}$ coïncident, alors les idéaux $\nideal$ et $\mideal$ coïncident aussi.}
 
 La seconde partie du théorème principal montre que la forme résultante fournit les zéros avec leur multiplicité caractéristique. Cette seconde partie est analogue au fait que deux idéaux d'un corps de nombres algébrique, dont l'un est un diviseur de l'autre, coïncident si et seulement si leurs \emph{normes} coïncident; la raison interne des deux théorèmes est également la même.
 
-En effet, $\mideal$ peut être conçu comme un module de formes linéaires $\mathfrak M_{i-1}$, en considérant chaque polynôme comme une forme linéaire dans les produits de puissances de $x_1,\ldots,x_{i-1}$ et en adjoignant $x_{i+1},\ldots,x_n$ au domaine des coefficients. Le facteur résultant $R^{(i)}$ devient alors égal à la \emph{norme} du module fondamental correspondant (\S{}~1) $\Gmod_{i-1}$ par rapport à $\mathfrak M_{i-1}$; on obtient ainsi aussitôt une \emph{interprétation de la multiplicité -- produit du degré et de l'exposant d'un facteur de $R^{(i)}$ -- par le nombre de classes modulo $\mathfrak M_{i-1}$ linéairement indépendantes}\footnote{Ces derniers résultats montrent leur véritable signification lorsqu'on fait intervenir la décomposition des idéaux en idéaux primaires; la multiplicité correspondant à un idéal primaire est alors définie comme le nombre de classes modulo cet idéal, linéairement indépendantes, du complément; cela sera traité ailleurs. (E. N.)}, fait qui n'était connu jusqu'à présent que dans le cas spécial où la résultante peut être définie pour des coefficients indéterminés\footnote{Cf. Macaulay, \emph{The algebraic theory of modular systems}, Cambridge Tracts 19 (Cambridge University Press, 1916), no~67; voir aussi Lasker, Zur Theorie der Moduln und Ideale, Math. Ann. 60 (1905), p.~20--116; p.~98. Que, dans ce cas, la résultante et la forme résultante coïncident est montré dans les théorèmes encore non publiés de Hentzelt mentionnés sous 1). (E. N.)}.
+En effet, $\mideal$ peut être conçu comme un module de formes linéaires $\mathfrak M_{i-1}$, en considérant chaque polynôme comme une forme linéaire dans les produits de puissances de $x_1\ldots x_{i-1}$ et en adjoignant $x_{i+1}\ldots x_n$ au domaine des coefficients. Le facteur résultant $R^{(i)}$ devient alors égal à la \emph{norme} du module fondamental correspondant (\S{}~1) $\Gmod_{i-1}$ par rapport à $\mathfrak M_{i-1}$; on obtient ainsi aussitôt une \emph{interprétation de la multiplicité -- produit du degré et de l'exposant d'un facteur de $R^{(i)}$ -- par le nombre de classes modulo $\mathfrak M_{i-1}$ linéairement indépendantes}\footnote{Ces derniers résultats montrent leur véritable signification lorsqu'on fait intervenir la décomposition des idéaux en idéaux primaires; la multiplicité correspondant à un idéal primaire est alors définie comme le nombre de classes modulo cet idéal, linéairement indépendantes, du complément; cela sera traité ailleurs. (E. N.)}, fait qui n'était connu jusqu'à présent que dans le cas spécial où la résultante peut être définie pour des coefficients indéterminés\footnote{Cf. Macaulay, \emph{The algebraic theory of modular systems}, Cambridge Tracts 19 (Cambridge University Press, 1916), no~67; voir aussi Lasker, Zur Theorie der Moduln und Ideale, Math. Ann. 60 (1905), p.~20--116; p.~98. Que, dans ce cas, la résultante et la forme résultante coïncident est montré dans les théorèmes encore non publiés de Hentzelt mentionnés sous 1). (E. N.)}.
 
 Pour déduire ces résultats, on donne aux \S{}~1 et \S{}~2 des théorèmes sur les modules de formes linéaires dont les coefficients sont des nombres rationnels entiers ou des polynômes d'une indéterminée. Le lien avec les idéaux de polynômes introduits au \S{}~3 est assuré par le théorème d'isomorphie du \S{}~4. Le \S{}~5 donne la seconde partie du théorème principal mentionnée ci-dessus, le \S{}~7 le théorème sur les zéros, que précède au \S{}~6 une théorie générale de l'élimination. Là, en même temps, lors de l'introduction de nouvelles indéterminées, est démontrée la décomposition de la résolvante en formes linéaires de ces indéterminées; et ainsi, pour l'élimination donnée ici, est fournie une démonstration irréprochable d'une affirmation de Kronecker\footnote{La tentative de démonstration chez König, \emph{Algebraische Größen} (Leipzig 1903, Teubner), V, \S{}~4 -- pour la théorie de l'élimination de Kronecker -- est notoirement restée sans succès. Que, même pour les multiplicités introduites par König dans la théorie de l'élimination de Kronecker, la seconde partie du théorème principal de Hentzelt ne vaille pas, est montré par Macaulay, loc. cit., p.~23; il y est en outre montré que la théorie de l'élimination de Kronecker ne correspond pas à la décomposition en idéaux primaires. (E. N.)}.
 
@@ -13588,7 +13588,7 @@ Pour la preuve, il faut d'abord remarquer que le corps résiduel $(\mathcal R)$ 
 
 Pour passer à un corps des zéros isomorphe, il faut encore remarquer que $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ et $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ sont mis en rapport isomorphe par l'association, à chaque élément de $\mathsf{P}(u,x_{i+1},\ldots,x_n)$, de sa classe modulo $\frakp$. Car, tout d'abord, par cette association, les domaines d'intégrité formés des polynômes en $x_{i+1},\ldots,x_n$ et respectivement en $(x_{i+1}),\ldots,(x_n)$ se correspondent isomorphiquement, puisque $\frakp$ ne contient aucun polynôme libre de $x_1,\ldots,x_i$, et que des polynômes différents de $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ correspondent donc aussi à des classes différentes; or, de domaines d'intégrité isomorphes proviennent, par formation de quotients, des corps isomorphes. Le rapport isomorphe entre $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ et $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ comprend celui entre $\mathsf{P}$ et $(\mathsf{P})$, $\mathsf{P}(u)$ et $(\mathsf{P}(u))$. Pour étendre cet isomorphisme à un isomorphisme entre $(\mathcal R)$ et un corps des zéros $R$, associons isomorphiquement aux classes $(x_1),\ldots,(x_i)$ certains nouveaux éléments $\bar{x}_1,\ldots,\bar{x}_i$; c'est-à-dire qu'à chaque polynôme $(a(x))$ corresponde un polynôme $a(\bar{x}_1,\ldots,\bar{x}_i,x_{i+1},\ldots,x_n)$; à la somme et au produit correspondent la somme et le produit. Par formation de quotients -- où l'on peut se restreindre aux dénominateurs du sous-corps $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, respectivement de $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ -- il correspond alors à $(\mathcal R)$ un corps $R$, extension finie de $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ de degré égal à celui de la norme, que l'on peut appeler corps des zéros; car l'association dit que $f(\bar{x}_1,\ldots,\bar{x}_i,x_{i+1},\ldots,x_n)$ s'annule dès que $f(x)\equiv0(\frakp)$. À la place de $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, on pourrait aussi faire intervenir, dans tout le raisonnement, n'importe quel autre sous-corps de $(\mathcal R)$ né par adjonction de $n-i$ grandeurs algébriquement indépendantes.
 
-Réciproquement, il est facile de montrer que tout corps des zéros $R$ de rang algébrique $n-i$ devient isomorphe à $(\mathcal R)$. Comme $R$ peut être déduit rationnellement, avec coefficients dans $\mathsf{P}(u)$, des grandeurs $\xi_1,\ldots,\xi_n$, il doit se trouver parmi ces grandeurs $n-i$ éléments algébriquement indépendants, donc transcendants relativement à $\mathsf{P}(u)$. En particulier, cela doit être vérifié pour $\xi_{i+1},\ldots,\xi_n$, puisque, à cause de $P^{(i)}\equiv0\pmod{\frakp}$, on déduit comme ci-dessus que $R$ devient un corps d'extension algébrique de $P(u,\xi_{i+1},\ldots,\xi_n)$. Comme, par hypothèse, $f(\xi)$ s'annule pour tout polynôme $f(x)$ de $\frakp$, à chaque classe de l'anneau de polynômes en les $(x)$ contenu dans $(\mathcal R)$ correspond un et un seul élément de $R$, qui est un polynôme en les $\xi$; et la somme et le produit correspondent à la somme et au produit. Mais à des classes différentes correspondent aussi des éléments différents de $R$; sinon, à une classe non nulle, donc après une multiplication convenable aussi à une classe représentée par un polynôme de $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, correspondrait l'élément nul dans $R$, et il existerait, contrairement à l'hypothèse, une dépendance algébrique entre les grandeurs $\xi_{i+1},\ldots,\xi_n$. Par cette association, tous les polynômes des $\xi$ contenus dans $R$ sont épuisés; mais, par formation de quotients -- où l'on peut de nouveau se restreindre aux dénominateurs de $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, respectivement de $\mathsf{P}(u,\bar{x}_{i+1},\ldots,\bar{x}_n)$ -- ces domaines d'intégrité isomorphes donnent des corps isomorphes.
+Réciproquement, il est facile de montrer que tout corps des zéros $R$ de rang algébrique $n-i$ devient isomorphe à $(\mathcal R)$. Comme $R$ peut être déduit rationnellement, avec coefficients dans $\mathsf{P}(u)$, des grandeurs $\xi_1,\ldots,\xi_n$, il doit se trouver parmi ces grandeurs $n-i$ éléments algébriquement indépendants, donc transcendants relativement à $\mathsf{P}(u)$. En particulier, cela doit être vérifié pour $\xi_{i+1},\ldots,\xi_n$, puisque, à cause de $P^{(i)}\equiv0\pmod{\frakp}$, on déduit comme ci-dessus que $R$ devient un corps d'extension algébrique de $\mathsf{P}(u,\xi_{i+1},\ldots,\xi_n)$. Comme, par hypothèse, $f(\xi)$ s'annule pour tout polynôme $f(x)$ de $\frakp$, à chaque classe de l'anneau de polynômes en les $(x)$ contenu dans $(\mathcal R)$ correspond un et un seul élément de $R$, qui est un polynôme en les $\xi$; et la somme et le produit correspondent à la somme et au produit. Mais à des classes différentes correspondent aussi des éléments différents de $R$; sinon, à une classe non nulle, donc après une multiplication convenable aussi à une classe représentée par un polynôme de $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, correspondrait l'élément nul dans $R$, et il existerait, contrairement à l'hypothèse, une dépendance algébrique entre les grandeurs $\xi_{i+1},\ldots,\xi_n$. Par cette association, tous les polynômes des $\xi$ contenus dans $R$ sont épuisés; mais, par formation de quotients -- où l'on peut de nouveau se restreindre aux dénominateurs de $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, respectivement de $\mathsf{P}(u,\bar{x}_{i+1},\ldots,\bar{x}_n)$ -- ces domaines d'intégrité isomorphes donnent des corps isomorphes.
 
 Supposons maintenant que l'idéal $\fraka$ s'annule en tous les zéros de $\frakp$, donc en particulier en tous ceux qui dépendent de $n-i$ paramètres. Si $a(x)$ est alors un polynôme quelconque de $\fraka$, $a(\xi)$ s'annule donc; à cause de l'isomorphisme entre $R$ et $(\mathcal R)$, $(a(x))$ devient par conséquent la classe nulle, et $a(x)$, donc $\fraka$, est divisible par $\frakp$. Ainsi le théorème III et son corollaire sont démontrés.
 
@@ -13619,7 +13619,7 @@ où $\delta$ a la même signification que ci-dessus. De même est donnée la dé
 
 Comme corollaire du théorème IV, on obtient encore: si deux idéaux premiers coïncident dans leur forme des diviseurs élémentaires $P^{(i)}$, ils sont identiques.
 
-La preuve du théorème IV reviendra à montrer que la forme des diviseurs élémentaires $P^{(i)}$ est identique à l'équation fondamentale du corps d'extension $(P(u,x_{i+1},\ldots,x_n),(x_i))$ sur $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$. On passe d'abord -- pour saisir la dépendance à l'égard des indéterminées $u_{\mu\nu}$, respectivement $t_{\mu\nu}$ -- au corps résiduel $(\overline{\mathcal R})$ de $\bar{\frakp}$, qui, d'après ce qui a été dit lors de la définition du rang algébrique, doit être de rang algébrique $n-i$ relativement à $(\bar{\mathsf{P}})$, où $(\bar{\mathsf{P}})$ désigne le sous-corps représenté par les éléments de $\mathsf{P}$. Car $(\overline{\mathcal R})$ naît par adjonction des indéterminées $u$, respectivement $t$, à un sous-corps isomorphe à $(\mathcal R)$, obtenu par formation de quotients à partir de toutes les classes, et seulement de celles, qui peuvent être représentées par des polynômes de $\bar{\mathfrak{J}}$, où $(\bar{\mathsf{P}})$ et $(\mathsf{P})$ se correspondent. Le rang algébrique de $(\overline{\mathcal R})$ relativement à $(\mathsf{P}(u))$ est donc égal à celui de ce sous-corps relativement à $(\mathsf{P})$, et par conséquent, en raison de l'isomorphisme, égal à celui de $(\mathcal R)$ relativement à $(\bar{\mathsf{P}})$. Comme $(\overline{\mathcal R})$ se déduit rationnellement, avec coefficients dans $(\bar{\mathsf{P}})$, des classes $(y_1),\ldots,(y_n)$, il doit donc y avoir parmi ces classes $(n-i)$ classes algébriquement indépendantes, et $(\overline{\mathcal R})$ naît comme corps d'extension algébrique fini du sous-corps engendré par l'adjonction de ces $(n-i)$ classes à $(\bar{\mathsf{P}})$.\footnote{Cette remarque montre que le théorème III avec son corollaire aurait pu être énoncé et démontré directement pour le corps des zéros $\bar R$ de $\bar{\frakp}$. Mais ce n'est que par le passage à l'idéal transformé que l'on obtient que, dans les plus grandes composantes primaires de même dimension d'un idéal quelconque, les mêmes paramètres apparaissent parmi les zéros; et c'est seulement ainsi que résulte le lien avec la norme et la forme des diviseurs élémentaires d'un idéal quelconque.}
+La preuve du théorème IV reviendra à montrer que la forme des diviseurs élémentaires $P^{(i)}$ est identique à l'équation fondamentale du corps d'extension $(\mathsf{P}(u,x_{i+1},\ldots,x_n),(x_i))$ sur $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$. On passe d'abord -- pour saisir la dépendance à l'égard des indéterminées $u_{\mu\nu}$, respectivement $t_{\mu\nu}$ -- au corps résiduel $(\overline{\mathcal R})$ de $\bar{\frakp}$, qui, d'après ce qui a été dit lors de la définition du rang algébrique, doit être de rang algébrique $n-i$ relativement à $(\bar{\mathsf{P}})$, où $(\bar{\mathsf{P}})$ désigne le sous-corps représenté par les éléments de $\mathsf{P}$. Car $(\overline{\mathcal R})$ naît par adjonction des indéterminées $u$, respectivement $t$, à un sous-corps isomorphe à $(\mathcal R)$, obtenu par formation de quotients à partir de toutes les classes, et seulement de celles, qui peuvent être représentées par des polynômes de $\bar{\mathfrak{J}}$, où $(\bar{\mathsf{P}})$ et $(\mathsf{P})$ se correspondent. Le rang algébrique de $(\overline{\mathcal R})$ relativement à $(\mathsf{P}(u))$ est donc égal à celui de ce sous-corps relativement à $(\mathsf{P})$, et par conséquent, en raison de l'isomorphisme, égal à celui de $(\mathcal R)$ relativement à $(\bar{\mathsf{P}})$. Comme $(\overline{\mathcal R})$ se déduit rationnellement, avec coefficients dans $(\bar{\mathsf{P}})$, des classes $(y_1),\ldots,(y_n)$, il doit donc y avoir parmi ces classes $(n-i)$ classes algébriquement indépendantes, et $(\overline{\mathcal R})$ naît comme corps d'extension algébrique fini du sous-corps engendré par l'adjonction de ces $(n-i)$ classes à $(\bar{\mathsf{P}})$.\footnote{Cette remarque montre que le théorème III avec son corollaire aurait pu être énoncé et démontré directement pour le corps des zéros $\bar R$ de $\bar{\frakp}$. Mais ce n'est que par le passage à l'idéal transformé que l'on obtient que, dans les plus grandes composantes primaires de même dimension d'un idéal quelconque, les mêmes paramètres apparaissent parmi les zéros; et c'est seulement ainsi que résulte le lien avec la norme et la forme des diviseurs élémentaires d'un idéal quelconque.}
 
 Si l'on adjoint seulement les indéterminées $t_{\sigma\tau}$ qui interviennent dans $x_{i+1},\ldots,x_n$, il naît de nouveau un corps résiduel, qui contient les classes $(y_1),\ldots,(y_n)$ et $(x_{i+1}),\ldots,(x_n)$ et qui devient un corps d'extension algébrique fini de $(\mathsf{P}(t_{\sigma\tau},x_{i+1},\ldots,x_n))$ -- il s'agit alors de corps isomorphes à des sous-corps de $(\overline{\mathcal R})$, non identiques à eux; car, pour des indéterminées différentes, les classes sont certes représentées par les mêmes éléments, mais elles ne sont pas identiques, puisqu'elles ne contiennent pas les mêmes éléments. Dans la dépendance des classes $(y)$ par rapport à $(\mathsf{P}(t_{\sigma\tau},x_{i+1},\ldots,x_n))$, seules les indéterminées $t_{\sigma\tau}$ interviennent donc; formons maintenant, par adjonction de $t_{1i},\ldots,t_{ni}$, la classe $(x_i)=(t_{1i}y_1+\cdots+t_{ni}y_n)$; et soient $(x_{i\nu})=(t_{1i}y_{1\nu}+\cdots+t_{ni}y_{n\nu})$ les $r$ valeurs conjuguées distinctes situées dans le corps de Galois relatif à $(\mathsf{P}(t_{\sigma\tau},t_{1i},\ldots,t_{ni},x_{i+1},\ldots,x_n))$. Alors -- selon qu'il s'agit ou non d'extensions de première espèce -- le produit sur les facteurs $t-(x_{i\nu})$, ou sur leurs $p^f$-ièmes puissances, devient un polynôme irréductible $(G)$ relativement à $(\mathsf{P}(t,x_{i+1},\ldots,x_n))$; car, puisqu'il existe des éléments de degré $r\cdot p^f$ (\S{} 1, 15.), $(x_i)$ doit nécessairement être un tel élément, puisque tout élément naît par spécialisation des $t_{1i},\ldots,t_{ni}$; mais $(x_i)$ devient zéro de $(G)$. Si l'on passe au corps des zéros isomorphe de $\frakp$ et au corps de Galois qui en est dérivé, $G$ admet donc une décomposition en facteurs linéaires $t-t_{1i}\bar y_{1\nu}-\cdots-t_{ni}\bar y_{n\nu}$, respectivement en leurs $p^f$-ièmes puissances. Or, comme $(G)$ s'annule pour $t=(x_i)$, $G(x_i)$ est divisible par $\frakp$ et donc par $P^{(i)}$; et, comme polynôme irréductible relativement à $\mathsf{P}(u,x_{i+1},\ldots,x_n)$ et primitif en $x_{i+1},\ldots,x_n$, $G$ doit devenir identique à $P^{(i)}$; la première décomposition du théorème IV est ainsi démontrée.
 
@@ -15148,7 +15148,7 @@ On vérifie maintenant aussitôt que tous les axiomes de l'opération annulaire 
 
 Si $\overline{\mb}$ est un idéal dans $\bR$, l'intersection $[\overline{\mb},\mR]$ devient un idéal $\mb$ dans $\mR$, l'idéal contracté de $\overline{\mb}$.\footnote{Dans la notation de H. Grell, dans le travail cité à la note 6, p. 83.} Tout idéal $\ma$ de $\mR$ est un idéal contracté, à savoir celui de son idéal étendu $\overline{\ma}$. En effet, tout élément $a$ de $[\mR,\overline{\ma}]$ est de la forme $\sum \bar c_i a_i$, où les $a_i$ peuvent être supposés linéairement indépendants relativement à $\mathsf{P}$ ou à $\overline{\mathsf{P}}$. Les éléments $a,a_i$ deviennent donc linéairement dépendants dans $\bR$, et par conséquent, d'après la définition d'égalité, aussi dans $\mR$; donc $a$ appartient à $\ma$. Comme la réciproque vaut également, $\ma$ devient égal à $[\mR,\overline{\ma}]$.
 
-Si $\bp$ est un idéal premier dans $\bR$, alors $\mpideal=[\mR,\bp]$ devient un idéal premier dans $\mR$. En effet, d'après le second théorème d'isomorphisme,\footnote{Théorie des idéaux, \S 4, no 3. Le théorème y est énoncé seulement pour des idéaux d'un même anneau; la même considération montre toutefois sa validité sous la forme ci-dessus pour des idéaux arbitraires $\overline{\ma}$ de $\bR$. Par l'homomorphisme d'anneaux $\overline{\mathfrak R}\sim\overline{\mathfrak R}\,|\,\overline{\mathfrak a}$, l'homomorphisme d'anneaux $\mathfrak R\sim(\mathfrak R,\overline{\mathfrak a})\,|\,\overline{\mathfrak a}$ est induit pour le sous-anneau $\mR$ de $\bR$. Dans cet homomorphisme, l'élément nul correspond à tous et seulement aux éléments de $[\mR,\overline{\ma}]$; on obtient donc l'isomorphisme d'anneaux $(\mathfrak R,\overline{\mathfrak a})\,|\,\overline{\mathfrak a}\simeq \mathfrak R\,|\,[\mathfrak R,\overline{\mathfrak a}]$. Les classes peuvent alors être représentées à droite et à gauche par les mêmes éléments de $\mR$, car à chaque étape de la démonstration les éléments sont assignés aux classes qu'ils représentent.} l'anneau quotient $\mR/\mpideal$ devient isomorphe à un sous-anneau de $\overline{\mathfrak R}\,|\,\overline{\mathfrak p}$, et donc un anneau sans diviseurs de zéro. On a en effet l'isomorphisme d'anneaux:
+Si $\bp$ est un idéal premier dans $\bR$, alors $\mpideal=[\mR,\bp]$ devient un idéal premier dans $\mR$. En effet, d'après le second théorème d'isomorphisme,\footnote{Théorie des idéaux, \S 4, no 3. Le théorème y est énoncé seulement pour des idéaux d'un même anneau; la même considération montre toutefois sa validité sous la forme ci-dessus pour des idéaux arbitraires $\overline{\ma}$ de $\bR$. Par l'homomorphisme d'anneaux $\overline{\mathfrak R}\sim\overline{\mathfrak R}\,|\,\overline{\mathfrak a}$, l'homomorphisme d'anneaux $\mathfrak R\sim(\mathfrak R,\overline{\mathfrak a})\,|\,\overline{\mathfrak a}$ est induit pour le sous-anneau $\mR$ de $\bR$. Dans cet homomorphisme, l'élément nul correspond à tous et seulement aux éléments de $[\mR,\overline{\ma}]$; on obtient donc l'isomorphisme d'anneaux $(\mathfrak R,\overline{\mathfrak a})\,|\,\overline{\mathfrak a}\simeq \mathfrak R\,|\,[\mathfrak R,\overline{\mathfrak a}]$. Les classes peuvent alors être représentées à droite et à gauche par les mêmes éléments de $\mR$, car à chaque étape de la démonstration les éléments sont assignés aux classes qu'ils représentent.} l'anneau quotient $\mR|\mpideal$ devient isomorphe à un sous-anneau de $\overline{\mathfrak R}\,|\,\overline{\mathfrak p}$, et donc un anneau sans diviseurs de zéro. On a en effet l'isomorphisme d'anneaux:
 \[
    (\mR,\bp)/\bp
      \simeq \mR/[\mR,\bp],
@@ -15261,7 +15261,7 @@ et les idéaux $[\mR,\bp_i]$ sont premiers d'après \S 1, no 3.
 
 2b. De la complète réductibilité de première espèce de $\mR$ résulte la complète réductibilité de première espèce de $\bR$, et plus généralement celle de tout anneau intermédiaire entre $\mR$ et $\bR$.
 
-Comme, d'après \S 2, no 3, à la représentation de $\mR$ comme somme directe correspond une telle représentation de $\bR$, de sorte que chaque composante $\bR_i$ devient l'anneau d'extension $\mR_i[\overline{\mathsf{P}}_i]$ -- où $\overline{\mathsf{P}}_i$ est un corps d'extension isomorphe à $\overline{\mathsf{P}}$ du sous-corps $\mathsf{P}_i$ de la composante $\mR_i$, isomorphe à $P$ --, il suffit de considérer la composante séparée $\mR_i$. On peut donc supposer, sans restriction de généralité, que $\mR$ est un corps, et même un corps d'extension fini de première espèce de son sous-corps $\mathsf{P}$. Ainsi $\mR$ est engendré par adjonction d'un élément primitif de première espèce à $\mathsf{P}$; autrement dit, $\mR$ devient isomorphe à l'anneau quotient $P[x]/f(x)$, où $f(x)$ désigne un polynôme irréductible séparable dans l'anneau de polynômes $\mathsf{P}[x]$ en une indéterminée $x$. Si $\Omega$ est un corps d'extension de $\mathsf{P}$, alors $\Omega[x]\,|\,f(x)$ devient isomorphe à $\mR[\Omega]$; car, lors du passage de $\mathsf{P}[x]$ à $\Omega[x]$, le rang de l'anneau quotient reste égal au degré de $f(x)$, si bien qu'il s'agit exactement de la construction de l'anneau d'extension indiquée au \S 1, no 2. Dans $\Omega[x]$, $f(x)$ se décompose en polynômes irréductibles séparables deux à deux premiers entre eux, chacun engendrant un idéal premier dans $\Omega[x]$; cela signifie que $\Omega[x]\,|\,f(x)$, et donc, par l'isomorphisme, aussi $\mR[\Omega]$, devient complètement réductible de première espèce. Comme cela vaut pour tout corps d'extension $\Omega$, en particulier aussi pour le corps algébriquement clos $\overline{\mathsf{P}}$, 2b est démontré.
+Comme, d'après \S 2, no 3, à la représentation de $\mR$ comme somme directe correspond une telle représentation de $\bR$, de sorte que chaque composante $\bR_i$ devient l'anneau d'extension $\mR_i[\overline{\mathsf{P}}_i]$ -- où $\overline{\mathsf{P}}_i$ est un corps d'extension isomorphe à $\overline{\mathsf{P}}$ du sous-corps $\mathsf{P}_i$ de la composante $\mR_i$, isomorphe à $P$ --, il suffit de considérer la composante séparée $\mR_i$. On peut donc supposer, sans restriction de généralité, que $\mR$ est un corps, et même un corps d'extension fini de première espèce de son sous-corps $\mathsf{P}$. Ainsi $\mR$ est engendré par adjonction d'un élément primitif de première espèce à $\mathsf{P}$; autrement dit, $\mR$ devient isomorphe à l'anneau quotient $\mathsf{P}[x]/f(x)$, où $f(x)$ désigne un polynôme irréductible séparable dans l'anneau de polynômes $\mathsf{P}[x]$ en une indéterminée $x$. Si $\Omega$ est un corps d'extension de $\mathsf{P}$, alors $\Omega[x]\,|\,f(x)$ devient isomorphe à $\mR[\Omega]$; car, lors du passage de $\mathsf{P}[x]$ à $\Omega[x]$, le rang de l'anneau quotient reste égal au degré de $f(x)$, si bien qu'il s'agit exactement de la construction de l'anneau d'extension indiquée au \S 1, no 2. Dans $\Omega[x]$, $f(x)$ se décompose en polynômes irréductibles séparables deux à deux premiers entre eux, chacun engendrant un idéal premier dans $\Omega[x]$; cela signifie que $\Omega[x]\,|\,f(x)$, et donc, par l'isomorphisme, aussi $\mR[\Omega]$, devient complètement réductible de première espèce. Comme cela vaut pour tout corps d'extension $\Omega$, en particulier aussi pour le corps algébriquement clos $\overline{\mathsf{P}}$, 2b est démontré.
 
 2c. Si $\mR$ est complètement réductible de seconde espèce, alors $\bR$ n'est pas complètement réductible.
 
@@ -15288,7 +15288,7 @@ De 2a et 2c il résulte que la complète réductibilité de première espèce de
 En effet, $\bR$ devient d'après 2b somme directe de corps qui, comme extensions finies de sous-corps isomorphes à $\overline{\mathsf{P}}$, sont identiques à ces sous-corps, à cause de la clôture algébrique de $\overline{\mathsf{P}}$. On obtient ainsi
 \[
         \bR=\overline{\mathsf{P}}\bar\varepsilon_1+\cdots+\overline{\mathsf{P}}\bar\varepsilon_n,
-        \qquad e=\bar e_1+\cdots+\bar e_n;
+        \qquad e=\bar\varepsilon_1+\cdots+\bar\varepsilon_n;
 \]
 les composantes $\bar \varepsilon_i$ de $e$ forment en même temps une base de $\bR$ comme $\overline{\mathsf{P}}$-module.
 
@@ -15296,7 +15296,7 @@ Si les $\bar e_i$ sont, d'après \S 1, no 2, représentés comme combinaisons li
 \[
         \mR[\Omega]=\Omega\bar e_1+\cdots+\Omega\bar e_n.
 \]
-Ainsi une décomposition en anneaux de rang un vaut déjà dans $\mR[\Omega]$, et dans tout anneau intermédiaire entre $\mR[\Omega]$ et $\bR$, les composantes indécomposables naissent comme anneaux d'extension de $\Omega\bar\varepsilon_\lambda$.\footnote{On peut caractériser le plus petit corps d'extension $\Omega$ de ce type comme le corps de réunion des corps galoisiens déterminés par les composantes $\mR_i=\mR\varepsilon_i$ de $\mR$. En effet, si $f_i(x)$ est choisi comme en 2b de telle sorte que $P[x]/f_i(x)$ devienne isomorphe à la composante $\mR_i$, et si $\Omega^{(i)}$ est le corps d'extension galoisien contenu dans $\overline{\mathsf{P}}$ qui suffit exactement à la décomposition de $f_i(x)$ en facteurs linéaires, alors $\Omega$ est le corps de réunion de tous les $\Omega^{(i)}$. À la décomposition de $f_i(x)$ en facteurs linéaires correspond une représentation de $\Omega^{(i)}[x]\,|\,f_i(x)$ comme somme directe de corps de rang un; $\Omega^{(i)}$ est alors le plus petit corps d'extension où cela se produit. À cause de l'isomorphisme, il en va de même pour $\mR_i[\Omega^{(i)}\varepsilon_i]$ et donc pour $\mR[\Omega]$.}
+Ainsi une décomposition en anneaux de rang un vaut déjà dans $\mR[\Omega]$, et dans tout anneau intermédiaire entre $\mR[\Omega]$ et $\bR$, les composantes indécomposables naissent comme anneaux d'extension de $\Omega\bar\varepsilon_\lambda$.\footnote{On peut caractériser le plus petit corps d'extension $\Omega$ de ce type comme le corps de réunion des corps galoisiens déterminés par les composantes $\mR_i=\mR\varepsilon_i$ de $\mR$. En effet, si $f_i(x)$ est choisi comme en 2b de telle sorte que $\mathsf{P}[x]/f_i(x)$ devienne isomorphe à la composante $\mR_i$, et si $\Omega^{(i)}$ est le corps d'extension galoisien contenu dans $\overline{\mathsf{P}}$ qui suffit exactement à la décomposition de $f_i(x)$ en facteurs linéaires, alors $\Omega$ est le corps de réunion de tous les $\Omega^{(i)}$. À la décomposition de $f_i(x)$ en facteurs linéaires correspond une représentation de $\Omega^{(i)}[x]\,|\,f_i(x)$ comme somme directe de corps de rang un; $\Omega^{(i)}$ est alors le plus petit corps d'extension où cela se produit. À cause de l'isomorphisme, il en va de même pour $\mR_i[\Omega^{(i)}\varepsilon_i]$ et donc pour $\mR[\Omega]$.}
 
 \subsection*{\S 4. Représentation matricielle, traces et discriminants dans les anneaux de rang fini}
 
@@ -15518,10 +15518,10 @@ La théorie des idéaux dans $\mT$ est donnée par le théorème suivant:\footno
 
 \textbf{2. Passage de l'ordre aux anneaux de rang fini relativement à un corps.} Soit $p$ un élément premier de $\mo$, de sorte que l'idéal principal dérivé de $p$ dans $\mo$ soit un idéal premier $\mo p$, distinct de l'idéal nul et de l'idéal unité; désignons de même par $\mT p$ l'idéal principal dérivé de $p$ dans $\mT$.\footnote{Cette notation des idéaux principaux sera employée désormais afin d'indiquer en même temps l'anneau dans lequel ils sont considérés.} \emph{L'anneau quotient $\mR=\mT/\mT p$ est un anneau de rang $n$ relativement à un sous-corps $P$ isomorphe au corps $\mo/\mo p$; l'anneau $\mT$ est homomorphe à $\mT/\mT p$.}
 
-L'homomorphisme $\mT\sim\mT\,|\,\mT p$ vaut en général pour tout anneau quotient; le fait que $\mR$ contienne un sous-corps $\mathsf{P}$ isomorphe à $\mo/\mo p$ résulte du second théorème d'isomorphisme,\footnote{Cf. la dernière note du \S 1.} car le sous-anneau $(\mo,\mT p)/\mT p$ est isomorphe à $\mo/[\mo,\mT p]=\mo/\mo p$.
+L'homomorphisme $\mT\sim\mT\,|\,\mT p$ vaut en général pour tout anneau quotient; le fait que $\mR$ contienne un sous-corps $\mathsf{P}$ isomorphe à $\mo/\mo p$ résulte du second théorème d'isomorphisme,\footnote{Cf. la dernière note du \S 1.} car le sous-anneau $(\mo,\mT p)|\mT p$ est isomorphe à $\mo|[\mo,\mT p]=\mo|\mo p$.
 
 Enfin, $\mR$ est bien de rang $n$ relativement à $P$. Soit $a_1,\ldots,a_n$ une base de $\mT$ comme $\mo$-module, et soient $(a_1),\ldots,(a_n)$ les classes modulo $\mT p$ déterminées par les $a_i$. Toute dépendance linéaire entre les $(a_i)$ relativement à $P$ provient, par l'homomorphisme, d'une congruence
-$c_1a_1+\cdots+c_na_n\equiv0\pmod{\mT p}$,
+$c_1\alpha_1+\cdots+c_n\alpha_n\equiv0\pmod{\mT p}$,
 donc d'une relation
 $c_1\alpha_1+\cdots+c_n\alpha_n=p\gamma$,
 où $\gamma$ appartient à $\mT$. De la représentation de $\gamma$ par la base des $\alpha_i$ et de l'unicité de cette représentation, il résulte que chaque $c_i$ est divisible par $p$, donc que l'élément $(c_i)$ de $\mathsf{P}$ s'annule; l'indépendance linéaire des $(\alpha_i)$ relativement à $\mathsf{P}$ est ainsi démontrée.
@@ -18290,9 +18290,9 @@ Si l'on pose donc \(\Delta_\lambda=D_\lambda D_{\bar\lambda}\), il suffit d'adjo
         \Delta_\lambda^T=\Delta_\lambda
         \qquad\hbox{pour tout }T\hbox{ de }\mathfrak{G};
 \]
-et par suite\footnote{Comme il s'agit de l'extension hypercomplexe des coefficients d'un corps, le raisonnement usuel de la théorie de Galois doit être modifié. Soient \(P\) le corps d'extension en question de \(k_{\mathfrak{p}}\) et
+et par suite\footnote{Comme il s'agit de l'extension hypercomplexe des coefficients d'un corps, le raisonnement usuel de la théorie de Galois doit être modifié. Soient \(\mathsf{P}\) le corps d'extension en question de \(k_{\mathfrak{p}}\) et
 \[
-        (K_{\mathfrak{p}})_P=(K_{\mathfrak{p}})_P e^{S_1}+\cdots+(K_{\mathfrak{p}})_P e^{S_r}
+        (K_{\mathfrak{p}})_{\mathsf{P}}=(K_{\mathfrak{p}})_{\mathsf{P}} e^{S_1}+\cdots+(K_{\mathfrak{p}})_{\mathsf{P}} e^{S_r}
 \]
 la décomposition en somme directe de corps. Alors l'extension \( (K_{\mathfrak{p}})_{\mathsf{P}} e^{S_i}/\mathsf{P}e^{S_i}\) est galoisienne (le groupe étant un sous-groupe du groupe de décomposition d'un facteur premier de \(\mathfrak{p}\)) et les \(e^{S_i}\) sont conjugués relativement aux classes latérales. De \(\Delta_\lambda^T=\Delta_\lambda\), il résulte d'abord que la \(i\)-ième composante de \(\Delta_\lambda\) appartient à \(\mathsf{P}e^{S_i}\), donc s'écrit \(\gamma_i e^{S_i}\), avec \(\gamma_i\) dans \(\mathsf{P}\). Il en résulte encore, à cause de la conjugaison des \(e^{S_i}\), que tous les \(\gamma_i\) sont égaux, donc que, effectivement, \(\Delta_\lambda=\gamma\sum e^{S_i}=\gamma\) appartient à \(\mathsf{P}\).}: \(\Delta_\lambda\) appartient au corps de base élargi par le sous-corps réel du \(\lambda\)-ième caractère.
 
@@ -19336,7 +19336,7 @@ C'est la raison pour laquelle on appelle une algèbre simple normale sur son cen
 En analogie exacte avec le \S 6, 3., la théorie des isomorphismes vaut ici pour des \(Z\) arbitraires séparables sur \(P\); dans le cas d'un \(Z\) galoisien, on peut alors passer au groupe usuel d'automorphismes.
 
 \paragraph{Hypothèses.}
-Soit le système simple \(Z\) sur \(\mathsf{P}\) un corps d'extension fini séparable; soit \(\Omega\) un corps de décomposition fini ou infini sur \(\mathsf{P}\), \(Z'=Z^{(1)}\) un sous-corps isomorphe à \(Z\), et \(\Gamma\) le corps galoisien correspondant. D'après 1., on a donc la décomposition en somme directe
+Soit le système simple \(Z\) sur \(\mathsf{P}\) un corps d'extension fini séparable; soit \(\Omega\) un corps de décomposition fini ou infini sur \(\mathsf{P}\), \(\mathsf{Z}'=\mathsf{Z}^{(1)}\) un sous-corps isomorphe à \(Z\), et \(\Gamma\) le corps galoisien correspondant. D'après 1., on a donc la décomposition en somme directe
 \[
         Z_\Omega=r^{(1)}+\ldots+r^{(n)}
         =e^{(1)}Z_\Omega+\ldots+e^{(n)}Z_\Omega
@@ -19363,7 +19363,7 @@ Si \(\mathfrak I_T\) est la division en classes induite par \(T\), alors \(T\) e
 À partir de là, dans le cas d'un \(Z\) galoisien, on peut passer exactement comme au \S 6, 3., par composition avec l'inverse d'un isomorphisme, au groupe d'automorphismes et à la formulation usuelle. L'assertion correspondante pour les sous-groupes résulte de la considération des idempotents, qui est intéressante en elle-même.
 
 \paragraph{3. Les idempotents de \(Z_\Omega\).}
-Soit \(S\) l'une des \(n\) substitutions qui transportent \(\mathsf{Z}\) dans les divers \(\mathsf{Z}^{(i)}\), c'est-à-dire la composée des isomorphismes \(\mathsf{Z}\to Z\) et \(Z\to\mathsf{Z}^{(i)}\), le premier désignant l'isomorphisme réciproque de \(Z\to\mathsf{Z}\). Il n'est pas nécessaire que \(Z\) soit galoisien. Pour les éléments \(a\in Z_Z\), on définit les substitutions \(S\) comme opérateurs en prescrivant qu'elles induisent l'identité sur \(Z\); pour chaque \(a\), le conjugué \(a^S\in Z_{Z^{(i)}}\) est ainsi défini. Avec ces prescriptions vaut le
+Soit \(S\) l'une des \(n\) substitutions qui transportent \(\mathsf{Z}\) dans les divers \(\mathsf{Z}^{(i)}\), c'est-à-dire la composée des isomorphismes \(\mathsf{Z}\to Z\) et \(Z\to\mathsf{Z}^{(i)}\), le premier désignant l'isomorphisme réciproque de \(Z\to\mathsf{Z}\). Il n'est pas nécessaire que \(Z\) soit galoisien. Pour les éléments \(a\in Z_Z\), on définit les substitutions \(S\) comme opérateurs en prescrivant qu'elles induisent l'identité sur \(Z\); pour chaque \(a\), le conjugué \(a^S\in Z_{\mathsf{Z}^{(i)}}\) est ainsi défini. Avec ces prescriptions vaut le
 
 \paragraph{Théorème.}
 Les \(n\) idempotents \(e^{(i)}\) de \(Z_\Omega\) sont conjugués:
@@ -19548,7 +19548,7 @@ On démontre que \(A\) est une algèbre simple normale sur \(k\), donc un anneau
 Si l'on passe de \(u_S\) à \(v_S=u_Sc_S\), avec \(c_S\in K^*\), ce qui engendre le même automorphisme, on obtient des systèmes de facteurs associés
 \[
         \bar a_{S,T}
-        =a_{S,T}\frac{c_S^{\,T}c_T}{c_{ST}} .                 \tag{5}
+        =a_{S,T}c_S^Tc_T/c_{ST} .                 \tag{5}
 \]
 En particulier, d'après (5), les systèmes de facteurs
 \[
@@ -19778,26 +19778,26 @@ Les théorèmes sur le domaine principal se trouvent chez Chevalley\footnote{C. 
 \subsection*{\S{}I. Unités matricielles des produits croisés décomposés et bases complémentaires des corps de décomposition}
 
 \paragraph{1.}
-Dans ce paragraphe, \(\Omega\) désigne un corps de base quelconque. Soit \(k/\Omega\) une extension séparable galoisienne de degré \(n\), soit \(\Gg\) son groupe de Galois avec les éléments \(S,T,\ldots\), et soient \(u_S,u_T,\ldots\) les opérateurs correspondants. On considère les produits croisés à système de facteurs un, donc les algèbres décomposées
+Dans ce paragraphe, \(\Omega\) désigne un corps de base quelconque. Soit \(k/\Omega\) une extension séparable galoisienne de degré \(n\), soit \(\Gg\) son groupe de Galois avec les éléments \(\mathrm{S},\mathrm{T},\ldots\), et soient \(u_s,u_t,\ldots\) les opérateurs correspondants. On considère les produits croisés à système de facteurs un, donc les algèbres décomposées
 \[
-        K=\Gg\ast k=u_{S_1}k+\cdots+u_{S_n}k,\qquad
+        K=\Gg\ast k=u_{S_1}k+\ldots+u_{S_n}k,\qquad
         u_Su_T=u_{ST},
 \]
 avec
 \[
-        z u_S=u_S z^S \qquad(z\in k).
+        z u_s=u_s z^s \qquad(z\in k).
 \]
 Si l'on pose
 \[
         E_\Gg=\sum_{S\in\Gg}u_S,
 \]
-on obtient, à partir du système de facteurs un, les relations\footnote{Si la caractéristique de \(k\) ne divise pas \(n\), alors \(\frac1nE_\Gg\) est l'idempotent de la représentation unité. La forme normale de \(K\) reste toutefois valable lorsque la caractéristique divise \(n\); l'unique hypothèse est que \(k/\Omega\) soit séparable.}
+on obtient, à partir du système de facteurs un, les relations\footnote{Si la caractéristique de \(k\) ne divise pas \(n\), alors \(\frac1n\mathrm{E}_{\mathfrak g}\) est l'idempotent de la représentation unité. La forme normale de \(\mathrm{K}\) reste toutefois valable lorsque la caractéristique divise \(n\); l'unique hypothèse est que \(k/\Omega\) soit séparable.}
 \[
-        E_\Gg u_S=u_S E_\Gg=E_\Gg,                            \tag{1}
+        \mathrm{E}_{\mathfrak g}u_s=u_s\mathrm{E}_{\mathfrak g}=\mathrm{E}_{\mathfrak g}\tag{1}
 \]
-pour tout \(S\in\Gg\), c'est-à-dire que \(E_\Gg\) engendre la représentation unité de \(\Gg\), ainsi que
+pour tout \(S\in\Gg\), c'est-à-dire que \(\mathrm{E}_{\mathfrak g}\) engendre la représentation unité de \(\Gg\), ainsi que
 \[
-        zE_\Gg=\sum_Su_Sz^S,                                  \tag{2a}
+        z\mathrm{E}_{\mathfrak g}=\sum_su_sz^s,\tag{2a}
 \]
 et
 \[
@@ -19816,14 +19816,14 @@ donne un système d'unités matricielles de \(K\). \(K\) se représente comme pr
 \[
         K=kE_\Gg k
           =k\Bigl(\sum_Su_S\Bigr)k
-          =\sum_{i,k}(\widetilde a_iE_\Gg a_k)\,\Omega .
+          =\sum_{i,k}(\widetilde a_i\mathrm{E}_{\mathfrak g}a_k)\,\Omega.
 \]
 En effet, d'après (2b), on obtient
 \[
         c_{ij}c_{lk}
-        =\widetilde a_iE_\Gg a_j\widetilde a_lE_\Gg a_k
-        =\widetilde a_iE_\Gg a_k\,\Sp(a_j\widetilde a_l)
-        =c_{ik}\,\Sp(a_j\widetilde a_l).
+        =\widetilde a_i\mathrm{E}_{\mathfrak g}a_j\cdot\widetilde a_l\mathrm{E}_{\mathfrak g}a_k
+        =\widetilde a_i\mathrm{E}_{\mathfrak g}a_k\cdot\Sp(a_j\widetilde a_l)
+        =c_{ik}\cdot\Sp(a_j\widetilde a_l).
 \]
 C'est précisément la propriété des unités matricielles, en raison des équations de définition
 \[
@@ -19832,16 +19832,16 @@ C'est précisément la propriété des unités matricielles, en raison des équa
 des bases complémentaires.
 
 \paragraph{Remarque 1.}
-Si \(Z\) est un corps d'extension commutatif quelconque de \(\Omega\), tout reste valable lorsque \(a_i\) désigne une base de \(k_Z/Z\) et que \(K_Z\) devient une somme directe de corps. Les substitutions du groupe sont alors définies par la condition qu'elles induisent l'identité sur \(Z\), conformément au fait que chaque \(u_S\) commute élément par élément avec \(Z\) dans \(K_Z\).
+Si \(\mathrm{Z}\) est un corps d'extension commutatif quelconque de \(\Omega\), tout reste valable lorsque \(a_i\) désigne une base de \(k_{\mathrm Z}/\mathrm{Z}\) et que \(k_{\mathrm Z}\) devient une somme directe de corps. Les substitutions du groupe sont alors définies par la condition qu'elles induisent l'identité sur \(\mathrm{Z}\), conformément au fait que chaque \(u_s\) commute élément par élément avec \(Z\) dans \(K_Z\).
 
 \paragraph{Remarque 2.}
-Le fait que \(K=kE_\Gg k\) résulte aussi immédiatement de ce que le membre de droite est un idéal non nul du système simple \(K\).
+Le fait que \(\mathrm{K}=k\mathrm{E}_{\mathfrak g}k\) résulte aussi immédiatement de ce que le membre de droite est un idéal non nul du système simple \(\mathrm{K}\).
 
 \paragraph{2.}
-Supposons maintenant que \(\Omega\) soit de caractéristique nulle. La représentation \(K=kE_\Gg k\) de l'algèbre décomposée reste valable même lorsque \(k\) est un corps de décomposition non galoisien de \(K/\Omega\). On le montre en passant au corps de décomposition galoisien. Soit \(\bar k\) le corps galoisien associé à \(k\), soit \(\bar\Gg\) son groupe, soient \(\bar u_S\) les opérateurs correspondants, et soit \(\bar K=\bar kE_{\bar\Gg}\bar k\) un produit croisé décomposé. Le sous-corps \(k\) correspond au sous-groupe \(\Hh\) d'ordre \(h\). On pose
+Supposons maintenant que \(\Omega\) soit de caractéristique nulle. La représentation \(\mathrm{K}=k\mathrm{E}_{\mathfrak g}k\) de l'algèbre décomposée reste valable même lorsque \(k\) est un corps de décomposition non galoisien de \(\mathrm{K}/\Omega\). On le montre en passant au corps de décomposition galoisien. Soit \(\bar k\) le corps galoisien associé à \(k\), soit \(\bar\Gg\) son groupe, soient \(\bar u_s\) les opérateurs correspondants, et soit \(\bar{\mathrm K}=\bar k\mathrm{E}_{\bar{\mathfrak g}}\bar k\) un produit croisé décomposé. Le sous-corps \(k\) correspond au sous-groupe \(\Hh\) d'ordre \(\mathrm{h}\). On pose
 \[
-        \bar\Gg=\Hh S_1+\cdots+\Hh S_n
-              =S_1^{-1}\Hh+\cdots+S_n^{-1}\Hh,
+        \bar\Gg=\Hh\mathrm{S}_1+\ldots+\Hh\mathrm{S}_n
+              =\mathrm{S}_1^{-1}\Hh+\ldots+\mathrm{S}_n^{-1}\Hh,
         \qquad
         E_\Hh=\frac1h\sum_{H\in\Hh}\bar u_H,
 \]
@@ -19849,9 +19849,9 @@ et
 \[
         E_\Gg=\frac1h E_{\bar\Gg}
               =\sum_i u_{S_i},\qquad
-        u_{S_i}=E_\Hh\bar u_{S_i}.
+        u_{s_i}=\mathrm{E}_{\mathfrak h}\bar u_{s_i}.
 \]
-Alors l'idempotent \(E_\Hh\) engendre en particulier la représentation unité de \(\Hh\), et \(E_\Gg\), comme \(E_{\bar\Gg}\), engendre la représentation unité de \(\bar\Gg\). Pour les \(E_\Gg\) et les \(u_{S_i}\) ainsi définis, les relations (1) valent d'un côté, et (2) entièrement. Ici \(z\) parcourt tous les éléments de \(k\), de sorte que \(z^S\) parcourt ceux du corps conjugué \(k^S\), lequel est, comme sous-corps de \(\bar k\), également un sous-corps de \(\bar K\). On a d'abord
+Alors l'idempotent \(\mathrm{E}_{\mathfrak h}\) engendre en particulier la représentation unité de \(\Hh\), et \(\mathrm{E}_{\mathfrak g}\), comme \(\mathrm{E}_{\bar{\mathfrak g}}\), engendre la représentation unité de \(\bar\Gg\). Pour les \(\mathrm{E}_{\mathfrak g}\) et les \(u_{S_i}\) ainsi définis, les relations (1) valent d'un côté, et (2) entièrement. Ici \(z\) parcourt tous les éléments de \(k\), de sorte que \(z^s\) parcourt ceux du corps conjugué \(k^s\), lequel est, comme sous-corps de \(\bar k\), également un sous-corps de \(\bar{\mathrm K}\). On a d'abord
 \[
         \mathrm{E}_{\mathfrak g}=\mathrm{E}_{\mathfrak g}\mathrm{E}_{\mathfrak h}=\mathrm{E}_{\mathfrak h}\mathrm{E}_{\mathfrak g}=\mathrm{E}_{\mathfrak h}\mathrm{E}_{\mathfrak g}\mathrm{E}_{\mathfrak h},\tag{3}
 \]
@@ -20727,7 +20727,7 @@ Au théorème de structure pour les anneaux d'extension galoisiens de corps (\S{
 \]
 \emph{La différente $\mathfrak d$ de $\mathfrak o$ est donc constituée de tous les éléments $x$ de $\mathsf{K}$ tels que $\varkappa e^{(1)}$ appartienne à $\mathfrak O_{\mathfrak o}$ ; elle est distincte de l'idéal nul.}
 
-Le fait que $\mathfrak P_{\mathsf{K}}$ soit l'extension de $\mathfrak P$ résulte de $\mathfrak K=\mathfrak O_P$ et de $K=\mathfrak o_P$ : chaque $x-\xi$ de $\mathfrak P_{\mathsf{K}}$ s'exprime donc linéairement, à coefficients dans $\mathsf{K}$, au moyen des $y-\eta$ de $\mathfrak P$. Il en résulte en outre que $\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}$ est aussi défini comme le quotient $(0):\mathfrak P$ dans $\mathfrak K_{\mathsf{K}}$. Ainsi, $\mathfrak A=(0):\mathfrak P$ dans $\mathfrak O_{\mathfrak o}$ est constitué de tous les éléments de $\mathfrak O_{\mathfrak o}$ qui appartiennent à $\mathfrak A_{\mathsf{K}}$ ; on a $\mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_{\mathsf{K}}]$, de sorte que $\mathfrak A$ est l'idéal contracté de $\mathfrak A_{\mathsf{K}}$. Comme $\mathfrak A_{\mathsf{K}}=\mathsf{K}e^{(1)}$, on a donc $\mathfrak A=\mathfrak z e^{(1)}$, où $\mathfrak z$ est un $\mathfrak o$-module dans $\mathsf{K}$, puisque $\mathfrak A$ est lui aussi un $\mathfrak o$-module. Mais, par définition de la différente,
+Le fait que $\mathfrak P_{\mathsf{K}}$ soit l'extension de $\mathfrak P$ résulte de $\mathfrak K=\mathfrak O_P$ et de $K=\mathfrak o_{\mathsf{P}}$ : chaque $x-\xi$ de $\mathfrak P_{\mathsf{K}}$ s'exprime donc linéairement, à coefficients dans $\mathsf{K}$, au moyen des $y-\eta$ de $\mathfrak P$. Il en résulte en outre que $\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}$ est aussi défini comme le quotient $(0):\mathfrak P$ dans $\mathfrak K_{\mathsf{K}}$. Ainsi, $\mathfrak A=(0):\mathfrak P$ dans $\mathfrak O_{\mathfrak o}$ est constitué de tous les éléments de $\mathfrak O_{\mathfrak o}$ qui appartiennent à $\mathfrak A_{\mathsf{K}}$ ; on a $\mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_{\mathsf{K}}]$, de sorte que $\mathfrak A$ est l'idéal contracté de $\mathfrak A_{\mathsf{K}}$. Comme $\mathfrak A_{\mathsf{K}}=\mathsf{K}e^{(1)}$, on a donc $\mathfrak A=\mathfrak z e^{(1)}$, où $\mathfrak z$ est un $\mathfrak o$-module dans $\mathsf{K}$, puisque $\mathfrak A$ est lui aussi un $\mathfrak o$-module. Mais, par définition de la différente,
 \[
 \mathfrak d=\mathfrak A[x\to\xi]
 =(\mathfrak z e^{(1)})[x\to\xi]
@@ -20765,7 +20765,7 @@ Ordre régulier ayant pour base comme $\mathfrak h$-module $e,z,\ldots,z^{n-1}$ 
 \paragraph{Remarque.}
 La remarque du \S{} 5, 4 donne l'autre définition connue du module complémentaire $\mathfrak E$ de $\mathfrak O$. \emph{$\mathfrak E$ est constitué de tous les éléments $c$ de $\mathfrak K$ pour lesquels les traces $\operatorname{Sp}(ct)$, c'est-à-dire les traces $\operatorname{Sp}(co)$ pour tout $o$ de $\mathfrak O$, sont entières, c'est-à-dire appartiennent à $\mathfrak h$} ; il en va de même de $\mathfrak e$ relativement à $\mathfrak o$ et à $\mathsf{K}$.
 
-En effet, soit $c=c_1T_1+\cdots+c_nT_n$, avec $c_i$ dans $\mathfrak h$, une représentation d'un élément $c$ de $\mathfrak E$ dans la base de $\mathfrak K$ complémentaire de $t$. Alors $c_i=\operatorname{Sp}(ct_i)$ appartient à $\mathfrak h$ ; réciproquement, si $\operatorname{Sp}(ct_\lambda)$ appartient à $\mathfrak h$, alors $c_\lambda$ appartient à $\mathfrak h$, et donc $c$ à $\mathfrak E$.
+En effet, soit $c=c_1T_1+\cdots+c_nT_n$, avec $c_i$ dans $\mathfrak h$, une représentation d'un élément $c$ de $\mathfrak E$ dans la base de $\mathfrak K$ complémentaire de $t$. Alors $c_\lambda=\operatorname{Sp}(ct_\lambda)$ appartient à $\mathfrak h$ ; réciproquement, si $\operatorname{Sp}(ct_\lambda)$ appartient à $\mathfrak h$, alors $c_\lambda$ appartient à $\mathfrak h$, et donc $c$ à $\mathfrak E$.
 
 \paragraph{Complément.}
 \emph{S'il existe dans l'ordre une base indépendante comme $\mathfrak h$-module, alors le quotient des différences $\mathfrak A^{(i)}$ est l'intersection de tous les idéaux des différences distincts de $\mathfrak P^{(i)}$ ; plus précisément,}
@@ -20894,7 +20894,7 @@ Reçu le 25 octobre 1949.
 \frtocsec{6}{Les représentations irréductibles des systèmes commutatifs}{8}
 \frtocsec{7}{Les isomorphismes d'un corps}{8}
 \frtocsec{8}{Le corps de décomposition}{9}
-\frtocsec{9}{Les isomorphismes de $Z_1$ sur les $Z_i$}{9}
+\frtocsec{9}{Les isomorphismes de $\mathsf{Z}_1$ sur les $\mathsf{Z}_i$}{9}
 \frtocsec{10}{Le groupe de Galois}{9}
 \frtocsec{11}{Le théorème fondamental de la théorie de Galois}{9}
 \frtocsec{12}{La signification formelle des composantes $e_i$}{11}
@@ -20920,7 +20920,7 @@ Reçu le 25 octobre 1949.
 \frtocsec{26}{Multiplication des représentations croisées}{43}
 \medskip
 \frtocline{\textbf{Chapitre VI : Théorie des produits croisés}}{44}
-\frtocsec{27}{Représentation des $\mathfrak R_r$ comme produits croisés}{44}
+\frtocsec{27}{Représentation des $\mathfrak K_r$ comme produits croisés}{44}
 \frtocsec{28}{Théorème du produit pour les systèmes de facteurs}{47}
 \frtocsec{29}{Théorème du genre principal dans le cas minimal}{50}
 \frtocsec{30}{Spécialisation aux corps de décomposition cycliques}{50}
@@ -23564,7 +23564,7 @@ Ce qui suit constitue un renforcement du théorème fondamental de Noether, sous
 
 La condition nécessaire et suffisante pour qu'un polynôme donné $K$ en $x,y$ possède la propriété de divisibilité $K\equiv0(\varphi,\psi)$ est que les $s$ congruences suivantes soient simultanément satisfaites :
 \[
-K\equiv0(q_1),\quad K\equiv0(q_2),\quad\ldots,\quad K\equiv0(q_s).
+K\equiv0(\mathfrak{q}_1),\quad K\equiv0(\mathfrak{q}_2),\quad\ldots,\quad K\equiv0(\mathfrak{q}_s).
 \]
 
 Historiquement --- que l'on compare l'introduction du mémoire fondamental de Max Noether sur ce sujet\srcfn{5)}{Max Noether, \og Über einen Satz aus der Theorie der algebraischen Funktionen\fg{}, \emph{Math. Annalen} 6 (1872).} ---, le théorème fondamental est né des efforts consacrés à la résolution de la tâche fondamentale suivante : \emph{pour tout polynôme donné $K$ en $x,y$, on doit pouvoir décider s'il est divisible ou non par $(\varphi,\psi)$}, c'est-à-dire aussi s'il existe deux autres polynômes $\lambda$ et $\mu$ en $x,y$ tels que l'équation
