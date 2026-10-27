@@ -7,18 +7,18 @@ Ce recueil réunit les articles 1 à 43 d’Emmy Noether, le cours *Algèbre des
 ### Texte de base — 496 pages
 
 1. [Lire le PDF](reader-edition/01-noether-fr-texte-base.pdf).
-2. [Télécharger le texte cumulatif LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r2/02-noether-fr-texte-base.tex).
-3. [Télécharger les sources de composition](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r2/03-noether-fr-texte-base-sources.zip).
+2. [Télécharger le texte cumulatif LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r3/02-noether-fr-texte-base.tex).
+3. [Télécharger les sources de composition](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r3/03-noether-fr-texte-base-sources.zip).
 
 ### Texte avec émendations — 501 pages
 
 1. [Lire le PDF](reader-edition/04-noether-fr-emendations.pdf).
-2. [Télécharger le texte cumulatif LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r2/05-noether-fr-emendations.tex).
-3. [Télécharger les sources de composition](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r2/06-noether-fr-emendations-sources.zip).
+2. [Télécharger le texte cumulatif LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r3/05-noether-fr-emendations.tex).
+3. [Télécharger les sources de composition](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r3/06-noether-fr-emendations-sources.zip).
 
 Les deux variantes contiennent l’ensemble du recueil décrit ci-dessus. Le texte de base conserve les leçons originales concernées; les interventions de la variante avec émendations sont explicitées dans des notes critiques. Ces notes ne constituent pas une édition critique exhaustive de tous les textes.
 
-Chaque fichier LaTeX direct contient le texte intégral de sa variante. Chaque archive contient les mêmes sources cumulatives, leur organisation modulaire et un script de composition avec LuaLaTeX. [Empreintes SHA-256](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r2/07-SHA256SUMS.txt).
+Chaque fichier LaTeX direct contient le texte intégral de sa variante. Chaque archive contient les mêmes sources cumulatives, leur organisation modulaire et un script de composition avec LuaLaTeX. [Empreintes SHA-256](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r3/07-SHA256SUMS.txt).
 
 ## Auteurs, traduction et provenance
 

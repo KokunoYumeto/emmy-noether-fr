@@ -1770,8 +1770,8 @@ Par un calcul analogue à celui de \S\ 9 il résulte :
 \]
 Un calcul analogue à celui qui précède donne :
 \[
-(a\A\widehat{\nu}x)^4=[(a\A u)^4]_{\widehat{\nu}x^4}
-=\frac{21}{10}\theta_\eta^2(\vartheta\eta x)^2+\frac7{10}s_\vartheta^2-\frac3{10}g
+(a\A\widehat{\nu x})^4=[(a\A u)^4]\widehat{\nu x}^4
+=\frac{21}{10}\theta_\eta^2(\vartheta\eta x)^2+\frac7{10}s_\vartheta^2-\frac3{10}g,
 \quad(\text{selon la formule (3)c}),
 \]
 \[
@@ -4873,7 +4873,7 @@ sont des éléments algébriques relativement à
 \]
 Le corps obtenu par adjonction de $x_1,\ldots,x_\rho$,
 \[
-  \Omega\bigl(g_1^*,\ldots,g_\rho^*,x_1,
+  \Omega\bigl(g_1^*,\ldots,g_\rho^*;\ x_1,
   \ldots,x_\rho\bigr)=\Omega(x_1,
   \ldots,x_\rho),
 \]
@@ -4985,7 +4985,7 @@ sont identiques aux fonctions symétriques élémentaires des lignes de grandeur
 \begin{array}{cccc}
   x_1 & x_2 & \cdots & x_\rho\\
   x_1^{(1)} & x_2^{(1)} & \cdots & x_\rho^{(1)}\\
-  \vdots & \vdots & & \vdots\\
+  \vdots & & & \\
   x_1^{(i-1)} & x_2^{(i-1)} & \cdots & x_\rho^{(i-1)}.
 \end{array}
 \tag{5}
@@ -6901,9 +6901,9 @@ c_3(X-x)+c_4(Y\mp y)=0,
 \]
 où $c_3$ et $c_4$ ne s'annulent pas simultanément. Supposons d'abord, par exemple, $c_4=0$. La relation $(X-x)=0$ signifie alors qu'à un $z$ purement imaginaire correspond aussi un $f(z)$ purement imaginaire. Ainsi, pour tout $\mathfrak{y}$ réel, on a $f(i\mathfrak{y})=i\cdot\Yreal$, où $\Yreal$ est de nouveau réel. De là, puisque
 \[
-f(iy)=\pm i f(y),
+f(i\mathfrak{y})=\pm i f(\mathfrak{y}),
 \]
-on obtient aussi $f(y)=\pm\Yreal$; par conséquent, à tout $z$ réel correspond aussi un $f(z)$ réel, et, à cause de $(X-x)$, toutes les valeurs réelles passent en elles-mêmes. On n'a donc que $f(z)=z$ ou $\overline z$, c'est-à-dire effectivement le rang deux. On conclut de façon tout à fait analogue lorsque $c_3=0$, $c_4\ne0$.
+on obtient aussi $f(\mathfrak{y})=\pm\Yreal$; par conséquent, à tout $z$ réel correspond aussi un $f(z)$ réel, et, à cause de $(X-x)$, toutes les valeurs réelles passent en elles-mêmes. On n'a donc que $f(z)=z$ ou $\overline z$, c'est-à-dire effectivement le rang deux. On conclut de façon tout à fait analogue lorsque $c_3=0$, $c_4\ne0$.
 
 Supposons maintenant $c_3$ et $c_4$ différents de zéro, de sorte que la relation puisse s'écrire sous la forme
 \[
@@ -6966,7 +6966,7 @@ Il s'agit maintenant de savoir si l'on peut donner une telle représentation par
 \ldots,\lambda_r$ parcourent toutes les quantités de $\Omega$, à l'exclusion de celles qui provoquent une réduction du groupe.\footnote{Il faut aussi compter ici l'apparition d'une racine double de $g(x)=0$.} Autrement dit, le système non linéaire d'équations
 \begin{equation}\tag{3}
 F_1(\lambda_1,
-\ldots,\lambda_r)=a_1;\quad \ldots;\quad F_n(\lambda_1,
+\ldots,\lambda_r)=a_1;\ \ldots\ F_n(\lambda_1,
 \ldots,\lambda_r)=a_n
 \end{equation}
 doit, pour chaque système de valeurs $a_1,
@@ -7660,13 +7660,13 @@ Pour l'intégrale simple et \(\varkappa\) dérivées des \(u\), (3) est donné p
 +\binom{2}{1}\frac{\p f}{\p u_i^{(2)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{1}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-1)}
-\right]\Bigg\}\\
+\right)\Bigg\}\\
 &+\frac{d^2}{d x^2}\Bigg\{\sum\left(
 \binom{2}{2}\frac{\p f}{\p u_i^{(2)}}\delta u_i
 +\binom{3}{2}\frac{\p f}{\p u_i^{(3)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{2}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-2)}
-\right]\Bigg\}\\
+\right)\Bigg\}\\
 &+\cdots
 +(-1)^\varkappa\frac{d^\varkappa}{d x^\varkappa}
 \left\{\sum\binom{\varkappa}{\varkappa}
@@ -9578,7 +9578,7 @@ car ce dernier module contient, d'après (13), aussi le polynôme
 \]
 On obtient des expressions correspondantes pour $\mM_2,\ldots,\mM_{k-1}$. En outre, les modules $\mM_1,\ldots,\mM_k$ sont premiers entre eux, puisque d'après (14)
 \[
- \frac{1}{k-1}\Bigl((A_2+\cdots+A_k)+(A_1+A_3+\cdots+A_k)+\cdots+(A_1+\cdots+A_{k-1})\Bigr)\equiv1\pmod{\mM}.
+ \frac{1}{k-1}\Bigl(A_2+\cdots+A_k+A_1+A_3+\cdots+A_k+\cdots+A_1+\cdots+A_{k-1}\Bigr)\equiv1\pmod{\mM}.
 \]
 Ils forment de plus un système totalement premier entre eux, c'est-à-dire que le plus petit commun multiple d'un choix quelconque d'entre eux est premier avec le plus petit commun multiple des autres.\footnote{C'est une généralisation d'un concept introduit par Loewy.} Cela résulte directement en regroupant dans la formule (12) les termes de somme en deux groupes convenables.
 
@@ -10499,7 +10499,7 @@ Pour obtenir une telle représentation successivement, il reste à montrer que d
 \]
 il résulte que la représentation obtenue $\ideal M=[\ideal B_1\cdots\ideal B_k,\ideal C_k]$ est réduite. Pour cela, il suffit de montrer que, des représentations réduites
 \[
- \ideal M=[\ideal B_1\cdots\ideal B_l,\ideal C],\qquad \ideal C=[\ideal C_1,\ideal C_2],
+ \ideal M=[\ideal B_1\cdots\ideal B_\varrho,\ideal C],\qquad \ideal C=[\ideal C_1,\ideal C_2],
 \]
 on obtient une représentation réduite $\ideal M=[\ideal B_1\cdots\ideal B_\varrho,\ideal C_1,\ideal C_2]$. En effet, par hypothèse aucun des $\ideal B_i$ ne divise son complément; si cela arrivait pour un $\ideal C_i$, alors, contrairement à l'hypothèse dans la première représentation, $\ideal C$ pourrait être remplacé par un diviseur propre, puisque, par la seconde représentation réduite, $\ideal C_1$ et $\ideal C_2$ sont des diviseurs propres de $\ideal C$; la représentation est donc une représentation la plus courte. De plus, par hypothèse, aucun $\ideal B$ ne peut être remplacé par un diviseur propre; si cela était possible pour un $\ideal C_i$, cela correspondrait, contrairement à l'hypothèse, au remplacement de $\ideal C$ par un diviseur propre, puisque la représentation de $\ideal C$ est réduite. Le lemme est ainsi démontré.
 
@@ -11184,7 +11184,7 @@ Pour ces compositions valent les lois suivantes:
 \end{enumerate}
 De ces conditions résulte, comme on sait, l'existence de l'élément nul, ainsi que la validité de la loi distributive pour la combinaison de la soustraction et de la multiplication:
 \[
- (a-b)\gamma=a\gamma-b\gamma,\qquad c(\alpha-\beta)=c\alpha-c\beta,
+ (a\mathbin{\dot{-}}b)\cdot\gamma=a\cdot\gamma-b\cdot\gamma;\qquad c\cdot(\alpha\mathbin{\underset{\cdot}{-}}\beta)=c\cdot\alpha-c\cdot\beta,
 \]
 où $(\dot{-})$ désigne la soustraction dans $\Sigma$. Si $\Sigma$ contient une unité $\varepsilon$, on doit avoir $\varepsilon\cdot\alpha=\alpha$ pour tout élément $\alpha$ de $T$.
 
@@ -13432,7 +13432,7 @@ où $\bar{x}_{1\nu},\ldots,\bar{x}_{i\nu}$ désignent un système de zéros asso
 
 \textbf{11. Idéaux premiers et idéaux primaires.} Un idéal $\frakp$ s'appelle idéal premier si la divisibilité d'un produit par $\frakp$ implique celle d'au moins un facteur; $\frakq$ s'appelle idéal primaire -- ou primaire -- si la divisibilité d'un produit par $\frakq$ implique celle d'un facteur ou d'une puissance de chaque facteur. En symboles:
 \[
- a\not\equiv0\pmod{\frakp},\quad b\not\equiv0\pmod{\frakp}\quad\hbox{entraîne}\quad ab\not\equiv0\pmod{\frakp};
+ \mathfrak{a}\not\equiv0\pmod{\mathfrak{p}},\quad \mathfrak{b}\not\equiv0\pmod{\mathfrak{p}}\quad\hbox{entraîne}\quad \mathfrak{a}\mathfrak{b}\not\equiv0\pmod{\mathfrak{p}};
 \]
 \[
  a\not\equiv0\pmod{\frakq},\quad b^x\not\equiv0\pmod{\frakq}\ \hbox{pour toute puissance }x\quad\hbox{entraîne}\quad ab\not\equiv0\pmod{\frakq}.
@@ -14243,7 +14243,7 @@ La loi transitive de la clôture intégrale existe sous la forme suivante: si $R
 
 Le théorème des modules, d'après lequel les conditions de chaîne se transfèrent, n'intervient dans l'application à donner ici que pour des modules d'un anneau d'extension. Mais comme la démonstration reste la même dans le cas d'un domaine de modules général, c'est un tel domaine que l'on prendra pour base.
 
-Un système $M$ d'éléments $\alpha,\beta\ldots$ s'appelle domaine de modules relativement à un anneau $R$ lorsque, dans $M$, sont données deux opérations qui conduisent de façon univoque à des éléments de $M$: une composition additive des éléments et une multiplication des éléments par les éléments de $R$; lorsque $\mathsf{M}$ forme, par rapport à l'addition, un groupe abélien, tandis que la multiplication satisfait à la loi associative; et lorsque la loi distributive vaut sous ses deux formes.\footnote{Comparer \emph{Idealtheorie}, \S{}9.}
+Un système $\mathsf{M}$ d'éléments $\alpha,\beta\ldots$ s'appelle domaine de modules relativement à un anneau $R$ lorsque, dans $\mathsf{M}$, sont données deux opérations qui conduisent de façon univoque à des éléments de $\mathsf{M}$: une composition additive des éléments et une multiplication des éléments par les éléments de $R$; lorsque $\mathsf{M}$ forme, par rapport à l'addition, un groupe abélien, tandis que la multiplication satisfait à la loi associative; et lorsque la loi distributive vaut sous ses deux formes.\footnote{Comparer \emph{Idealtheorie}, \S{}9.}
 
 Pour un domaine de modules, toutes les définitions de modules données au \S{}1, 1., qui ne se rapportent pas à la multiplication, restent manifestement valables. En particulier, $\mathsf{M}$ s'appelle un domaine de modules fini lorsqu'il existe un nombre fini d'éléments $\xi_1,\ldots,\xi_k$ de $\mathsf{M}$ tels que $\mathsf{M}$ soit égal au module dérivé de $\xi_1,\ldots,\xi_k$, donc au système de toutes les formes linéaires $r_1\xi_1+\ldots+r_k\xi_k$, si $R$ possède un élément unité, tandis que, sinon, il faut encore ajouter des termes supplémentaires $n_i\xi_i$.
 
@@ -14890,7 +14890,7 @@ Réciproquement, il est immédiat que, sous les axiomes I à V, tout idéal prim
 
 \textbf{9.} \emph{Si des diviseurs de zéro sont admis dans l'anneau, alors les axiomes I à III et la clôture intégrale dans l'anneau total des fractions n'impliquent pas que tout idéal primaire devienne irréductible.}\footnote{Voir la note 19.}
 
-Soit $\mT$ un anneau dans lequel tous les axiomes I à IV, sauf la clôture intégrale, sont satisfaits. De tels anneaux existent: par exemple, lorsque $\mR$ satisfait aux axiomes I à V (\S{}3, 2), les ordres finis d'une extension finie du corps des fractions de $\mR$ qui sont distincts du système de tous les éléments entiers sur $\mR$ sont de tels anneaux. D'après la conséquence 8, il existe dans $\mT$ des idéaux primaires réductibles $\mq$; soit $\mpideal^\sigma$ un multiple propre de $\mq$, et soit $\overline{\mR}=\mT/\mpideal^\varrho$ l'anneau quotient. L'idéal $\overline{\mq}$ qui y correspond à $\mq$ est alors un idéal primaire réductible non nul. Dans $\overline{\mR}$, les axiomes I à III sont satisfaits, et la clôture intégrale dans l'anneau total des fractions vaut également. En effet, tout élément de $\mT$ non divisible par $\mpideal$ est copremier à $\mpideal^\sigma$; tous les éléments réguliers de $\overline{\mR}$ sont donc des unités. Ainsi $\overline{\mR}$ est identique à son anneau total des fractions.
+Soit $\mT$ un anneau dans lequel tous les axiomes I à IV, sauf la clôture intégrale, sont satisfaits. De tels anneaux existent: par exemple, lorsque $\mR$ satisfait aux axiomes I à V (\S{}3, 2), les ordres finis d'une extension finie du corps des fractions de $\mR$ qui sont distincts du système de tous les éléments entiers sur $\mR$ sont de tels anneaux. D'après la conséquence 8, il existe dans $\mT$ des idéaux primaires réductibles $\mq$; soit $\mpideal^\sigma$ un multiple propre de $\mq$, et soit $\overline{\mR}=\mT/\mpideal^\sigma$ l'anneau quotient. L'idéal $\overline{\mq}$ qui y correspond à $\mq$ est alors un idéal primaire réductible non nul. Dans $\overline{\mR}$, les axiomes I à III sont satisfaits, et la clôture intégrale dans l'anneau total des fractions vaut également. En effet, tout élément de $\mT$ non divisible par $\mpideal$ est copremier à $\mpideal^\sigma$; tous les éléments réguliers de $\overline{\mR}$ sont donc des unités. Ainsi $\overline{\mR}$ est identique à son anneau total des fractions.
 \providecommand{\mR}{\mathfrak{R}}
 \providecommand{\mA}{\mathfrak{A}}
 \providecommand{\mB}{\mathfrak{B}}
@@ -16276,7 +16276,7 @@ Un élément $c$ s'appelle idempotent lorsque $c^2=c$.
 \emph{Démonstration.} Soit $r$ un élément de $\mr_1$. On a
 \[
         r=er=e_1r+\ldots+e_nr,
-        \qquad e_ir\in\mr_i,
+        \qquad e_ir\ \text{dans}\ \mr_i,
 \]
 mais aussi
 \[
@@ -17641,19 +17641,19 @@ Si $c$ est un élément de l'idéal nilpotent maximal $\mc$, alors $\mathit{Sp}(
 
 Si $\mo$ est simple bilatère et si $\mathsf{P}$ est algébriquement clos, donc si $\mo=\sum c_{ik}\mathsf{P}$ est un anneau de matrices, alors, dans la représentation irréductible de $\mo$, à l'élément $a=\sum c_{ik}\alpha_{ik}$ est associée la matrice $(\alpha_{ik})$. Donc
 \[
-        \operatorname{Sp}_{\rm red}(a)=\sum_i\alpha_{ii},
+        \mathit{Sp}_{\rm red}(a)=\sum\alpha_{ii},
         \qquad
-        \operatorname{Sp}_{\rm pr}(a)=n\,\operatorname{Sp}_{\rm red}(a)=n\sum_i\alpha_{ii}.
+        \mathit{Sp}_{\rm pr}(a)=n\,\mathit{Sp}_{\rm red}(a)=n\sum\alpha_{ii}.
 \]
 En particulier
 \[
-        \operatorname{Sp}_{\rm red}(c_{ik})=0\ (i\ne k),\quad
-        \operatorname{Sp}_{\rm red}(c_{ii})=e,
+        \mathit{Sp}_{\rm red}(c_{ik})=0\ (i\ne k),\quad
+        \mathit{Sp}_{\rm red}(c_{ii})=e,
 \]
 et
 \[
-        \operatorname{Sp}_{\rm pr}(c_{ik})=0\ (i\ne k),\quad
-        \operatorname{Sp}_{\rm pr}(c_{ii})=n e.
+        \mathit{Sp}_{\rm pr}(c_{ik})=0\ (i\ne k),\quad
+        \mathit{Sp}_{\rm pr}(c_{ii})=n e.
 \]
 
 Lorsqu'on passe de $\mathsf{P}$ au corps algébriquement clos $\Omega$, la trace principale ne change pas, puisqu'elle peut être calculée à partir de la même base. Il n'en va pas de même de la trace réduite.
@@ -17682,7 +17682,7 @@ Une classe de représentation est déjà déterminée de façon univoque par les
 
 \emph{Démonstration.} Le module de représentation $\mR$ est connu lorsqu'on sait combien de fois chaque module de représentation irréductible $\mM_\nu$ apparaît comme facteur direct. Si ce nombre est $p_\nu$, la trace de $e^{(\nu)}$ est égale à $\mu_\nu n_\nu$, donc
 \[
-        \mu_\nu=\frac{\operatorname{Sp}(e^{(\nu)})}{n_\nu}.
+        \mu_\nu=\frac{\mathit{Sp}(e^{(\nu)})}{n_\nu}.
 \]
 
 \providecommand{\mo}{\mathfrak{o}}
@@ -17694,7 +17694,7 @@ Soit
 \[
         \mo=a_1P+\cdots+a_hP
 \]
-un système hypercomplexe. On appelle matrice discriminante la matrice dont les éléments sont les traces principales $\operatorname{Sp}(a_i a_j)$. On appelle matrice discriminante réduite la même matrice pour les traces réduites, formée dans le corps algébriquement clos. Le déterminant de la matrice s'appelle respectivement discriminant et discriminant réduit.
+un système hypercomplexe. On appelle matrice discriminante la matrice dont les éléments sont les traces principales $\mathit{Sp}(a_i a_j)$. On appelle matrice discriminante réduite la même matrice pour les traces réduites, formée dans le corps algébriquement clos. Le déterminant de la matrice s'appelle respectivement discriminant et discriminant réduit.
 
 Le discriminant reste le même lors de l'extension du corps de base. Lors du passage à une autre base, il se multiplie par le carré du déterminant de transformation.
 
@@ -17707,7 +17707,7 @@ Le discriminant reste le même lors de l'extension du corps de base. Lors du pas
 \end{align*}
 Ou, sous forme matricielle,
 \[
-        (\operatorname{Sp}(a_i a_j))=(\operatorname{Sp}(a_i b_j))P,             \tag{1}
+        (\mathit{Sp}(a_i a_j))=(\mathit{Sp}(a_i b_j))P,             \tag{1}
 \]
 De même, si $P^t$ est la matrice transposée,
 \[
@@ -17717,13 +17717,13 @@ De même, si $P^t$ est la matrice transposée,
 \]
 et, comme précédemment,
 \[
-        (\operatorname{Sp}(a_i b_j))=P^t(\operatorname{Sp}(b_i b_j)).           \tag{1a}
+        (\mathit{Sp}(a_i b_j))=P^t(\mathit{Sp}(b_i b_j)).           \tag{1a}
 \]
 De (1) et (1a), on déduit
 \[
-        (\operatorname{Sp}(a_i a_j))=P^t(\operatorname{Sp}(b_i b_j))P.
+        (\mathit{Sp}(a_i a_j))=P^t(\mathit{Sp}(b_i b_j))P.
 \]
-Le passage aux déterminants fournit l'assertion. Le déterminant n'est donc déterminé qu'à un carré près dans $P$; son annulation est une propriété invariante. On déduit encore de (1) que l'on peut aussi déterminer le discriminant, à un facteur $\ne0$ près, à partir de deux bases différentes, comme $|\operatorname{Sp}(a_i b_j)|$.
+Le passage aux déterminants fournit l'assertion. Le déterminant n'est donc déterminé qu'à un carré près dans $P$; son annulation est une propriété invariante. On déduit encore de (1) que l'on peut aussi déterminer le discriminant, à un facteur $\ne0$ près, à partir de deux bases différentes, comme $|\mathit{Sp}(a_i b_j)|$.
 
 Le discriminant s'annule si $\mo$ possède un idéal nilpotent $\mc$.
 
@@ -18169,7 +18169,7 @@ En effet, d'après le théorème 1, \([\mathfrak{G}]_{\mathfrak{o}_{\mathfrak{p}
 Soit \(K/k\) galoisien, de groupe \(\mathfrak{G}\); \(z^S\) désignera l'élément de \(K\) obtenu à partir de \(z\) par la substitution \(S\) de \(\mathfrak{G}\). Les substitutions de \(\mathfrak{G}\) induisent sur \(K/k\), considéré comme \(k\)-module, c'est-à-dire comme groupe abélien additif ayant \(k\) pour domaine d'opérateurs, des automorphismes de module. Par conséquent, \(K/k\) peut être défini comme module sur \((\mathfrak{G})_k\) par la convention:
 \[
         z\Bigl(\sum_i S_i c_i\Bigr)=\sum_i z^{S_i}c_i,
-        \qquad z\in K,\; S_i\in\mathfrak{G},\; c_i\in k.
+        \text{ avec } z \text{ dans } K,\ S_i \text{ dans } \mathfrak{G},\ c_i \text{ dans } k.
 \]
 
 \paragraph{Définition.}
@@ -18225,7 +18225,7 @@ Pour décomposer le discriminant, il suffit, comme on sait, de considérer la d�
 
 En effet, avec \(w^S\) comme base normale, le discriminant \(\Delta\) devient le carré de
 \[
-        D=\bigl|w^{ST^{-1}}\bigr|;\qquad S,T\in\mathfrak{G}.
+        D=\bigl|w^{ST^{-1}}\bigr|;\qquad S,T\ \text{dans}\ \mathfrak{G}.
 \]
 Or \(D\) est le déterminant de groupe avec les \(w^S\) à la place des indéterminées \(x_S\).
 
@@ -18280,7 +18280,7 @@ Le théorème 6 est ainsi démontré dans toutes ses parties. Si l'on peut montr
 \paragraph{Théorème 7.}
 \emph{Si \(k\) est le corps des nombres rationnels, et si \(K/k\) est cyclique de degré premier \(l\), ce degré étant premier au discriminant, donc sans ramification supérieure, alors les idéaux engendrés par les \(\Delta_\lambda\), pour les représentations non triviales, sont égaux entre eux et coïncident avec le conducteur de \(K/k\).}
 
-Cela résulte de la décomposition connue des résolvantes de Lagrange.\footnote{Hilbert, Zahlbericht, \S 108. Comme, d'après le théorème 5, l'existence de la base normale est établie -- la place peut, d'après la note 7, être définie simplement par localisation en \(\mathfrak{p}\) --, il n'est plus nécessaire de recourir au fait, utilisé dans le Zahlbericht, que les corps absolument cycliques sont des corps cyclotomiques.} À une place ramifiée \(\mathfrak{p}\) de \(K/k\), on a en effet, pour \(k_\varepsilon\), le corps des racines \(l\)-ièmes de l'unité, et pour \(K_\varepsilon\) (\(K_\varepsilon\) reste un corps, puisque \(k_\varepsilon\) est linéairement disjoint de \(K\) et que l'extension \(\mathfrak{p}\)-adique est ici superflue d'après la note 7):
+Cela résulte de la décomposition connue des résolvantes de Lagrange.\footnote{Hilbert, Zahlbericht, \S 108. Comme, d'après le théorème 5, l'existence de la base normale est établie -- la place peut, d'après la note 7, être définie simplement par localisation en \(\mathfrak{p}\) --, il n'est plus nécessaire de recourir au fait, utilisé dans le Zahlbericht, que les corps absolument cycliques sont des corps cyclotomiques.} À une place ramifiée \(p\) de \(K/k\), on a en effet, pour \(k_\varepsilon\), le corps des racines \(l\)-ièmes de l'unité, et pour \(K_\varepsilon\) (\(K_\varepsilon\) reste un corps, puisque \(k_\varepsilon\) est linéairement disjoint de \(K\) et que l'extension \(p\)-adique est ici superflue d'après la note 7):
 \[
         (p)=\mathfrak{p}_1\cdots\mathfrak{p}_{l-1},
         \qquad
@@ -18921,7 +18921,7 @@ Tout module \(\frL\) possède, après numérotation convenable des \(x_i\), une 
 donc
 \[
         x_i\equiv x_{l+1}\alpha_{i,l+1}+\ldots+x_n\alpha_{i,n}
-        \pmod{\frL},\qquad i=1,\ldots,\ell. \tag{2}
+        \pmod{\frL},\qquad i=1,\ldots,l.
 \]
 et par conséquent les
 \[
@@ -19336,7 +19336,7 @@ Si \(\mathfrak I_T\) est la division en classes induite par \(T\), alors \(T\) e
 À partir de là, dans le cas d'un \(Z\) galoisien, on peut passer exactement comme au \S 6, 3., par composition avec l'inverse d'un isomorphisme, au groupe d'automorphismes et à la formulation usuelle. L'assertion correspondante pour les sous-groupes résulte de la considération des idempotents, qui est intéressante en elle-même.
 
 \paragraph{3. Les idempotents de \(Z_\Omega\).}
-Soit \(S\) l'une des \(n\) substitutions qui transportent \(\mathsf{Z}\) dans les divers \(\mathsf{Z}^{(i)}\), c'est-à-dire la composée des isomorphismes \(\mathsf{Z}\to Z\) et \(Z\to\mathsf{Z}^{(i)}\), le premier désignant l'isomorphisme réciproque de \(Z\to\mathsf{Z}\). Il n'est pas nécessaire que \(Z\) soit galoisien. Pour les éléments \(a\in Z_Z\), on définit les substitutions \(S\) comme opérateurs en prescrivant qu'elles induisent l'identité sur \(Z\); pour chaque \(a\), le conjugué \(a^S\in Z_{\mathsf{Z}^{(i)}}\) est ainsi défini. Avec ces prescriptions vaut le
+Soit \(S\) l'une des \(n\) substitutions qui transportent \(\mathsf{Z}\) dans les divers \(\mathsf{Z}^{(i)}\), c'est-à-dire la composée des isomorphismes \(\mathsf{Z}\to Z\) et \(Z\to\mathsf{Z}^{(i)}\), le premier désignant l'isomorphisme réciproque de \(Z\to\mathsf{Z}\). Il n'est pas nécessaire que \(Z\) soit galoisien. Pour les éléments \(a\in Z_{\mathsf{Z}}\), on définit les substitutions \(S\) comme opérateurs en prescrivant qu'elles induisent l'identité sur \(Z\); pour chaque \(a\), le conjugué \(a^S\in Z_{\mathsf{Z}^{(i)}}\) est ainsi défini. Avec ces prescriptions vaut le
 
 \paragraph{Théorème.}
 Les \(n\) idempotents \(e^{(i)}\) de \(Z_\Omega\) sont conjugués:
@@ -19753,8 +19753,8 @@ Les théorèmes sur le domaine principal se trouvent chez Chevalley\footnote{C. 
 \paragraph{1.}
 Dans ce paragraphe, \(\Omega\) désigne un corps de base quelconque. Soit \(k/\Omega\) une extension séparable galoisienne de degré \(n\), soit \(\Gg\) son groupe de Galois avec les éléments \(\mathrm{S},\mathrm{T},\ldots\), et soient \(u_s,u_t,\ldots\) les opérateurs correspondants. On considère les produits croisés à système de facteurs un, donc les algèbres décomposées
 \[
-        K=\Gg\ast k=u_{S_1}k+\ldots+u_{S_n}k,\qquad
-        u_Su_T=u_{ST},
+        \mathrm{K}=\Gg\ast k=u_{s_1}k+\ldots+u_{s_n}k,\qquad
+        u_su_t=u_{st},
 \]
 avec
 \[
@@ -20700,7 +20700,7 @@ Au théorème de structure pour les anneaux d'extension galoisiens de corps (\S{
 \]
 \emph{La différente $\mathfrak d$ de $\mathfrak o$ est donc constituée de tous les éléments $x$ de $\mathsf{K}$ tels que $\varkappa e^{(1)}$ appartienne à $\mathfrak O_{\mathfrak o}$ ; elle est distincte de l'idéal nul.}
 
-Le fait que $\mathfrak P_{\mathsf{K}}$ soit l'extension de $\mathfrak P$ résulte de $\mathfrak K=\mathfrak O_P$ et de $K=\mathfrak o_{\mathsf{P}}$ : chaque $x-\xi$ de $\mathfrak P_{\mathsf{K}}$ s'exprime donc linéairement, à coefficients dans $\mathsf{K}$, au moyen des $y-\eta$ de $\mathfrak P$. Il en résulte en outre que $\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}$ est aussi défini comme le quotient $(0):\mathfrak P$ dans $\mathfrak K_{\mathsf{K}}$. Ainsi, $\mathfrak A=(0):\mathfrak P$ dans $\mathfrak O_{\mathfrak o}$ est constitué de tous les éléments de $\mathfrak O_{\mathfrak o}$ qui appartiennent à $\mathfrak A_{\mathsf{K}}$ ; on a $\mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_{\mathsf{K}}]$, de sorte que $\mathfrak A$ est l'idéal contracté de $\mathfrak A_{\mathsf{K}}$. Comme $\mathfrak A_{\mathsf{K}}=\mathsf{K}e^{(1)}$, on a donc $\mathfrak A=\mathfrak z e^{(1)}$, où $\mathfrak z$ est un $\mathfrak o$-module dans $\mathsf{K}$, puisque $\mathfrak A$ est lui aussi un $\mathfrak o$-module. Mais, par définition de la différente,
+Le fait que $\mathfrak P_{\mathsf{K}}$ soit l'extension de $\mathfrak P$ résulte de $\mathfrak K=\mathfrak O_{\mathsf{P}}$ et de $K=\mathfrak o_{\mathsf{P}}$ : chaque $x-\xi$ de $\mathfrak P_{\mathsf{K}}$ s'exprime donc linéairement, à coefficients dans $\mathsf{K}$, au moyen des $y-\eta$ de $\mathfrak P$. Il en résulte en outre que $\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}$ est aussi défini comme le quotient $(0):\mathfrak P$ dans $\mathfrak K_{\mathsf{K}}$. Ainsi, $\mathfrak A=(0):\mathfrak P$ dans $\mathfrak O_{\mathfrak o}$ est constitué de tous les éléments de $\mathfrak O_{\mathfrak o}$ qui appartiennent à $\mathfrak A_{\mathsf{K}}$ ; on a $\mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_{\mathsf{K}}]$, de sorte que $\mathfrak A$ est l'idéal contracté de $\mathfrak A_{\mathsf{K}}$. Comme $\mathfrak A_{\mathsf{K}}=\mathsf{K}e^{(1)}$, on a donc $\mathfrak A=\mathfrak z e^{(1)}$, où $\mathfrak z$ est un $\mathfrak o$-module dans $\mathsf{K}$, puisque $\mathfrak A$ est lui aussi un $\mathfrak o$-module. Mais, par définition de la différente,
 \[
 \mathfrak d=\mathfrak A[x\to\xi]
 =(\mathfrak z e^{(1)})[x\to\xi]
@@ -22092,7 +22092,7 @@ j^{*-2}ij^*j^{*2}&=ij^*
 \end{aligned}
 \]
 
-\(j^{*2}\) commute avec tous les éléments de \(\mathfrak K\); il appartient donc au centre \(\mathsf{R}\), et \(j^{*2}\) est un nombre réel \(r\). Le nombre \(r\) ne peut pas être positif, car le polynôme \(x^2-r\) aurait alors, dans le corps commutatif \(\mathsf{R}(j^*)\), les quatre racines \(+\sqrt r,-\sqrt r,+j^*\) et \(-j^*\). Ainsi \(j^{*2}=-m^2\), avec \(m\in R\). Posons \(j=j^*m^{-1}\); alors \(j^2=-1\), et \(1,i,j,k=ij\) sont les unités quaternioniennes, c.q.f.d.
+\(j^{*2}\) commute avec tous les éléments de \(\mathfrak K\); il appartient donc au centre \(\mathsf{R}\), et \(j^{*2}\) est un nombre réel \(r\). Le nombre \(r\) ne peut pas être positif, car le polynôme \(x^2-r\) aurait alors, dans le corps commutatif \(\mathsf{R}(j^*)\), les quatre racines \(+\sqrt r,-\sqrt r,+j^*\) et \(-j^*\). Ainsi \(j^{*2}=-m^2\), avec \(m\in \mathsf{R}\). Posons \(j=j^*m^{-1}\); alors \(j^2=-1\), et \(1,i,j,k=ij\) sont les unités quaternioniennes, c.q.f.d.
 
 La démonstration vaut manifestement si l'on remplace \(\mathsf{R}\) par un corps réel clos quelconque.
 
@@ -22139,8 +22139,8 @@ On étend par \(\mathsf{K}\) les corps gauches \(\mathsf P\), \(\mathfrak S\), \
 \]
 Chaque \(\mathfrak S_{\mathsf{K}}\) est, d'après le théorème 1 de la page 20, simple bilatère et complètement réductible; ses idéaux à gauche simples --- isomorphes entre eux comme modules à opérateurs --- sont des modules de représentation pour l'unique classe de représentations irréductibles de \(\mathfrak S\) dans \(\mathsf{K}\). Comme cette classe de représentations est de degré \(1\) --- car, par construction de \(\mathsf{K}\), il existe dans \(\mathsf{K}\) des corps gauches anti-isomorphes à \(\mathfrak S\) ---, tous les idéaux à gauche simples sont de rang \(1\). Autrement dit, \(\mathfrak S_{\mathsf{K}}\) devient somme d'autant d'idéaux à gauche que l'indique son degré sur \(\mathsf P\) :
 \[
-\mathfrak S_K=K E_1+\cdots+K E_p,
-\qquad K E_\nu=\mathfrak S_K E_\nu.
+\mathfrak S_{\mathsf{K}}=\mathsf{K} E_1+\cdots+\mathsf{K} E_p,
+\qquad \mathsf{K} E_\nu=\mathfrak S_{\mathsf{K}} E_\nu.
 \]
 
 On a alors
