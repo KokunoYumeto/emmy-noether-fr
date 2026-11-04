@@ -24,7 +24,7 @@ Chaque fichier LaTeX direct contient le texte intégral de sa variante. Chaque a
 
 Les auteurs des œuvres restent Emmy Noether et les coauteurs indiqués dans les textes; M. Deuring a rédigé le cours de 1929/30. Traduction produite par IA; le modèle de la production initiale n’est pas établi par les éléments de provenance disponibles. Corrections et composition : OpenAI Codex — GPT-6 Astra, effort Ultra ; Claude Opus 5.5 (Anthropic), 26–27 octobre 2026 (formules alignées sur le texte allemand lu sur les pages imprimées de Noether). Aucune traduction humaine ni relecture scientifique humaine n’est attribuée à l’éditeur.
 
-Sources : [édition française ED0014/v051](https://doi.org/10.5281/zenodo.21921884), diffusée sous le nom Manuscript Typesetting Project, et [édition allemande ED0014/v051](https://doi.org/10.5281/zenodo.21908301). Les références des publications originales et les signatures figurent dans les textes. Ces identifiants désignent les éditions sources; aucun DOI n’est attribué à la présente publication GitHub.
+Sources : [édition française ED0014/v051](https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/ed0014-v051-r1), diffusée sous le nom Manuscript Typesetting Project, et édition allemande ED0014/v051. Les références des publications originales et les signatures figurent dans les textes.
 
 ## Droits
 

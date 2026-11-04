@@ -8,7 +8,7 @@ Les notices historiques sont conservées dans le dépôt et les éditions antér
 
 ## Éditions sources
 
-- [Édition française ED0014/v051](https://doi.org/10.5281/zenodo.21921884).
-- [Édition allemande ED0014/v051](https://doi.org/10.5281/zenodo.21908301).
+- [Édition française ED0014/v051](https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/ed0014-v051-r1).
+- Édition allemande ED0014/v051.
 
 Les références des publications originales, les signatures et les citations se trouvent dans les textes.

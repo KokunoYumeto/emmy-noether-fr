@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Citer cette édition française avec son URL de publication GitHub. Les DOI cités dans la notice désignent les éditions sources."
+message: "Citer cette édition française avec son URL de publication GitHub."
 title: "Emmy Noether — Écrits mathématiques en français"
 type: dataset
 version: "2026-10-24"
@@ -8,11 +8,16 @@ authors:
   - family-names: Noether
     given-names: Emmy
 url: "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-24"
-abstract: "Articles 1–43, cours de 1929/30 rédigé par M. Deuring, article de Kapferer et Noether et complément, bibliographie et listes terminales. Texte de base de 496 pages et variante avec émendations de 501 pages, LaTeX intégral et sources de composition. Traduction produite par IA, modèle initial non établi; corrections et composition par OpenAI Codex — GPT-6 Astra, effort Ultra. Droits réservés à leurs titulaires respectifs; voir la notice."
+abstract: "Articles 1–43, cours de 1929/30 rédigé par M. Deuring, article de Kapferer et Noether et complément, bibliographie et listes terminales. Texte de base de 496 pages et variante avec émendations de 501 pages, LaTeX intégral et sources de composition. Traduction produite par IA, modèle initial non établi; corrections et composition par OpenAI Codex — GPT-6 Astra, effort Ultra. Œuvres d’Emmy Noether dans le domaine public; dans la mesure où l’éditeur détient des droits sur la traduction, les corrections et la composition produites par IA, ils sont versés au domaine public sous CC0 1.0; voir la notice."
 references:
   - type: dataset
     title: "Édition française source ED0014/v051 — Manuscript Typesetting Project"
-    doi: 10.5281/zenodo.21921884
+    authors:
+      - family-names: Noether
+        given-names: Emmy
+    url: "https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/ed0014-v051-r1"
   - type: dataset
     title: "Édition allemande source ED0014/v051"
-    doi: 10.5281/zenodo.21908301
+    authors:
+      - family-names: Noether
+        given-names: Emmy
