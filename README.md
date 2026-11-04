@@ -22,7 +22,8 @@ imprimées de Noether.
 
 L’édition contient l’ensemble des œuvres énumérées ci-dessus. La traduction n’a pas été relue par une personne et des
 erreurs peuvent subsister ; quelques formules peuvent encore suivre l’ancienne transcription allemande là où la
-traduction rend un passage à sa manière. Les corrections sont bienvenues sur la
+traduction rend un passage à sa manière. Des parties des articles 24, 30, 31 et 34 contiennent des leçons d’une
+traduction anglaise antérieure qui diffèrent du texte allemand. Les corrections sont bienvenues sur la
 [page des tickets](https://github.com/KokunoYumeto/emmy-noether-fr/issues).
 
 ## Contenu et point de départ
