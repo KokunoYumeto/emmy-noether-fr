@@ -24,10 +24,9 @@ translation. What was done in each round, the measured figures and what is still
 
 ## Réalisation
 
-La traduction française a été produite par IA, par des modèles OpenAI Codex (le modèle employé pour la traduction
-n’est pas consigné), d’après le texte allemand des impressions originales transcrit par IA. Les corrections et la
+La traduction française a été produite par IA, par des modèles OpenAI Codex (pour l’essentiel GPT-5.6 Sol, effort de raisonnement ultra, selon l’utilisateur), d’après le texte allemand des impressions originales transcrit par IA. Les corrections et la
 composition sont produites par OpenAI Codex — GPT-6 Astra, effort Ultra, en octobre 2026, et par Claude Opus 5.5
-(Anthropic) les 26 et 27 octobre 2026 ; ce dernier a aussi aligné les formules sur le texte allemand lu sur les pages
+(Anthropic, effort max) les 26 et 27 octobre 2026 ; ce dernier a aussi aligné les formules sur le texte allemand lu sur les pages
 imprimées de Noether.
 
 ## État
