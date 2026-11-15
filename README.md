@@ -13,7 +13,7 @@ les corps, les algèbres et leurs représentations. L’édition est publiée en
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -24,7 +24,7 @@ translation. What was done in each round, the measured figures and what is still
 
 ## Réalisation
 
-La traduction française a été produite par IA, par des modèles OpenAI Codex (pour l’essentiel GPT-5.6 Sol, effort de raisonnement ultra, selon l’utilisateur), d’après le texte allemand des impressions originales transcrit par IA. Les corrections et la
+La traduction française a été produite par IA, par des modèles OpenAI Codex (pour l’essentiel GPT-5.6 Sol, effort de raisonnement ultra), d’après le texte allemand des impressions originales transcrit par IA. Les corrections et la
 composition sont produites par OpenAI Codex — GPT-6 Astra, effort Ultra, en octobre 2026, et par Claude Opus 5.5
 (Anthropic, effort max) les 26 et 27 octobre 2026 ; ce dernier a aussi aligné les formules sur le texte allemand lu sur les pages
 imprimées de Noether.

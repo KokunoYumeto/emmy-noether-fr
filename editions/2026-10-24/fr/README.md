@@ -5,7 +5,7 @@ Ce recueil réunit les articles 1 à 43 d’Emmy Noether, le cours *Algèbre des
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -34,7 +34,7 @@ Chaque fichier LaTeX direct contient le texte intégral de sa variante. Chaque a
 
 ## Auteurs, traduction et provenance
 
-Les auteurs des œuvres restent Emmy Noether et les coauteurs indiqués dans les textes; M. Deuring a rédigé le cours de 1929/30. Traduction produite par IA; production initiale pour l’essentiel par GPT-5.6 Sol (OpenAI Codex, effort de raisonnement ultra), selon l’utilisateur. Corrections et composition : OpenAI Codex — GPT-6 Astra, effort Ultra ; Claude Opus 5.5 (Anthropic, effort max), 26–27 octobre 2026 (formules alignées sur le texte allemand lu sur les pages imprimées de Noether). Aucune traduction humaine ni relecture scientifique humaine n’est attribuée à l’éditeur.
+Les auteurs des œuvres restent Emmy Noether et les coauteurs indiqués dans les textes; M. Deuring a rédigé le cours de 1929/30. Traduction produite par IA; production initiale pour l’essentiel par GPT-5.6 Sol (OpenAI Codex, effort de raisonnement ultra). Corrections et composition : OpenAI Codex — GPT-6 Astra, effort Ultra ; Claude Opus 5.5 (Anthropic, effort max), 26–27 octobre 2026 (formules alignées sur le texte allemand lu sur les pages imprimées de Noether). Aucune traduction humaine ni relecture scientifique humaine n’est attribuée à l’éditeur.
 
 Sources : [édition française ED0014/v051](https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/ed0014-v051-r1), diffusée sous le nom Manuscript Typesetting Project, et édition allemande ED0014/v051. Les références des publications originales et les signatures figurent dans les textes.
 
