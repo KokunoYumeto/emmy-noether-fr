@@ -6,9 +6,21 @@ son complément écrit avec E. Noether, ainsi que la bibliographie et les listes
 rendus et de livres auxquels Emmy Noether a participé. Les textes portent notamment sur les invariants, les idéaux,
 les corps, les algèbres et leurs représentations. L’édition est publiée en PDF et en LaTeX modifiable.
 
-[**Lire le texte de base — PDF, 496 pages**](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/01-noether-fr-texte-base.pdf) ·
-[Texte avec émendations — PDF, 501 pages](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/04-noether-fr-emendations.pdf) ·
-[Tous les fichiers de l’édition du 27 octobre 2026](https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-10-27-r4)
+[**Lire le texte de base — PDF, 496 pages**](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/01-noether-fr-texte-base.pdf) ·
+[Texte avec émendations — PDF, 501 pages](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/04-noether-fr-emendations.pdf) ·
+[Tous les fichiers de l’édition du 27 octobre 2026](https://github.com/KokunoYumeto/emmy-noether-fr/releases/tag/noether-fr-2026-11-15-r2)
+
+## How this was made: AI's failure modes, and what we do about them
+
+Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
+reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
+hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
+failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
+reworked or garbled, sentences and displays dropped, broken layout. Every change passes a release filter, and every PDF
+is checked for lines running into the margin (Claude Opus 5.5 at effort high, 15 November). No person has reviewed the
+translation. What was done in each round, the measured figures and what is still open:
+[How this was made](https://github.com/KokunoYumeto/emmy-noether#how-this-was-made-ais-failure-modes-and-what-we-do-about-them).
 
 ## Réalisation
 
@@ -32,10 +44,10 @@ L’édition comporte deux versions du texte, chacune en PDF, en un fichier LaTe
 
 | Version | PDF | LaTeX | Sources |
 |---|---|---|---|
-| Texte de base : conserve les leçons des impressions originales ; des notes critiques discutent les leçons concernées | [PDF, 496 p.](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/01-noether-fr-texte-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/02-noether-fr-texte-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/03-noether-fr-texte-base-sources.zip) |
-| Texte avec émendations : applique les corrections éditoriales, chacune expliquée dans une note critique | [PDF, 501 p.](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/04-noether-fr-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/05-noether-fr-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/06-noether-fr-emendations-sources.zip) |
+| Texte de base : conserve les leçons des impressions originales ; des notes critiques discutent les leçons concernées | [PDF, 496 p.](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/01-noether-fr-texte-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/02-noether-fr-texte-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/03-noether-fr-texte-base-sources.zip) |
+| Texte avec émendations : applique les corrections éditoriales, chacune expliquée dans une note critique | [PDF, 501 p.](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/04-noether-fr-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/05-noether-fr-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/06-noether-fr-emendations-sources.zip) |
 
-[Empreintes SHA-256](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-10-27-r4/07-SHA256SUMS.txt).
+[Empreintes SHA-256](https://github.com/KokunoYumeto/emmy-noether-fr/releases/download/noether-fr-2026-11-15-r2/07-SHA256SUMS.txt).
 Les mêmes fichiers se trouvent dans [`editions/2026-10-24/fr/reader-edition/`](editions/2026-10-24/fr/reader-edition/).
 
 Chaque fichier LaTeX contient le texte intégral de sa version. Chaque archive contient les mêmes sources cumulatives,
@@ -62,7 +74,4 @@ avec les différences connues entre les éditions.
 
 ## Droits
 
-Les œuvres d’Emmy Noether sont dans le domaine public. Dans la mesure où l’éditeur détient des droits sur la
-traduction, les corrections et la composition produites par IA, il les verse au domaine public sous
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr). Le cours rédigé par M. Deuring, le travail de
-H. Kapferer et les contributions des coauteurs nommés conservent leur propre statut juridique.
+Emmy Noether est morte en 1935 : ses écrits sont donc dans le domaine public dans l'Union européenne et partout où la durée de protection prend fin 70 ans après la mort de l'auteur. Aux États-Unis, ses articles publiés pour la première fois en 1931 ou plus tard restent protégés jusqu'à 95 ans après leur publication (les articles de 1931 deviennent libres le 1er janvier 2027). Dans la mesure où l'éditeur détient des droits sur la traduction, les corrections et la composition produites par IA, il les verse au domaine public sous [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr). Les leçons rédigées par M. Deuring, le travail de H. Kapferer et les contributions des coauteurs nommés ne sont pas concernés par cette déclaration ; leurs droits restent à leurs auteurs ou à leurs ayants droit.
